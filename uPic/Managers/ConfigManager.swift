@@ -8,7 +8,6 @@
 
 import Foundation
 import Cocoa
-import LaunchAtLogin
 
 public class ConfigManager {
     
@@ -19,6 +18,9 @@ public class ConfigManager {
     var historyList: [HistoryThumbnailModel]!
     
     public var firstUsage: BoolType {
+        #if DEBUG
+        return ._false
+        #endif
         if Defaults[.firstUsage] == nil {
             Defaults[.firstUsage] = BoolType._false.rawValue
             return ._true
@@ -41,8 +43,6 @@ public class ConfigManager {
         Defaults.synchronize()
         
         self.setHostItems(items: [Host.getDefaultHost()])
-        
-        LaunchAtLogin.isEnabled = false
     }
     
     

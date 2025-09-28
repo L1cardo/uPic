@@ -24,11 +24,5 @@ struct Constants {
             return "\(cachePaths[0])/\(bundleIdentifier)/uPic.db"
         }
     }
-
-    struct Key {
-        static let selectFileShortcut = "uPic_SelectFileShortcut"
-        static let pasteboardShortcut = "uPic_PasteboardShortcut"
-        static let screenshotShortcut = "uPic_ScreenshotShortcut"
-    }
 }
 

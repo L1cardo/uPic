@@ -3,11 +3,11 @@
   "strings" : {
     "5PO-nX-1ts.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload via Extension\"; ObjectID = \"5PO-nX-1ts\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Upload via Extension"
           }
         },
@@ -27,11 +27,11 @@
     },
     "a6A-gm-fbk.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"We need\"; ObjectID = \"a6A-gm-fbk\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "We need"
           }
         },
@@ -51,7 +51,7 @@
     },
     "aw5-Tv-dJb.title" : {
       "comment" : "Class = \"NSWindow\"; title = \"Window\"; ObjectID = \"aw5-Tv-dJb\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -75,11 +75,11 @@
     },
     "dfW-Tj-Gog.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Drag to Upload\"; ObjectID = \"dfW-Tj-Gog\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Drag to Upload"
           }
         },
@@ -99,11 +99,11 @@
     },
     "EN9-1Z-Sqq.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Next\"; ObjectID = \"EN9-1Z-Sqq\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Next"
           }
         },
@@ -123,11 +123,11 @@
     },
     "isq-Ch-gao.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"You can take a screenshot and upload.\\nPlease enable Setting -> Security & Privacy -> Privacy -> Screen Recording -> uPic\"; ObjectID = \"isq-Ch-gao\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "You can take a screenshot and upload.\nPlease enable Setting -> Security & Privacy -> Privacy -> Screen Recording -> uPic"
           }
         },
@@ -147,11 +147,11 @@
     },
     "J8p-JL-LaG.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"A powerful and simple file uploader tool.\\nUpload any files to any services you like.\"; ObjectID = \"J8p-JL-LaG\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "A powerful and simple file uploader tool.\nUpload any files to any services you like."
           }
         },
@@ -171,11 +171,11 @@
     },
     "KKR-Bg-AzW.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Limited by macOS, uPic can not access files outside of sandbox.\\nIf not granted permission, uPic may not be able to upload some files.\\nPlease be aware that uPic DO NOT collect any of your informations.\"; ObjectID = \"KKR-Bg-AzW\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Limited by macOS, uPic can not access files outside of sandbox.\nIf not granted permission, uPic may not be able to upload some files.\nPlease be aware that uPic DO NOT collect any of your informations."
           }
         },
@@ -195,11 +195,11 @@
     },
     "lZV-cL-KsE.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Previous\"; ObjectID = \"lZV-cL-KsE\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Previous"
           }
         },
@@ -219,11 +219,11 @@
     },
     "mld-Ub-NIp.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"uPic\"; ObjectID = \"mld-Ub-NIp\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "uPic"
           }
         },
@@ -243,11 +243,11 @@
     },
     "n2q-3P-rmS.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload Screenshot\"; ObjectID = \"n2q-3P-rmS\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Upload Screenshot"
           }
         },
@@ -267,11 +267,11 @@
     },
     "pk7-xU-bny.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Welcome to\"; ObjectID = \"pk7-xU-bny\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Welcome to"
           }
         },
@@ -291,11 +291,11 @@
     },
     "RwC-HL-AhF.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Authorization\"; ObjectID = \"RwC-HL-AhF\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Authorization"
           }
         },
@@ -315,11 +315,11 @@
     },
     "U8F-dC-vKZ.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Just drag the file to uPic icon on the status menu bar and then release your mouse.\\nIt is just this simple. \"; ObjectID = \"U8F-dC-vKZ\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Just drag the file to uPic icon on the status menu bar and then release your mouse.\nIt is just this simple. "
           }
         },
@@ -339,11 +339,11 @@
     },
     "ve2-Sd-1j7.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"GitHub, Imgur, SM.MS, Qiniu KODO, Upyun USS, Aliyun OSS, Tencent Cloud COS, Gitee, Amazon S3, Baidu Cloud BOS, Lsky Pro\"; ObjectID = \"ve2-Sd-1j7\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "GitHub, Imgur, SM.MS, Qiniu KODO, Upyun USS, Aliyun OSS, Tencent Cloud COS, Gitee, Amazon S3, Baidu Cloud BOS, Lsky Pro"
           }
         },
@@ -363,11 +363,11 @@
     },
     "vGP-mK-Tjk.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload via Script\"; ObjectID = \"vGP-mK-Tjk\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Upload via Script"
           }
         },
@@ -387,11 +387,11 @@
     },
     "X47-xi-iV3.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Multiple Services\"; ObjectID = \"X47-xi-iV3\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Multiple Services"
           }
         },
@@ -410,8 +410,7 @@
       }
     },
     "xlO-Fz-Nxq.title" : {
-      "comment" : "Class = \"NSTextFieldCell\"; title = \"Click share button and select \\\"Upload via uPic\\\".\\nor\\nRight click on the file and select \\\"Upload via uPic\\\".\"; ObjectID = \"xlO-Fz-Nxq\";",
-      "extractionState" : "migrated",
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Click share button and select \\\"Upload via uPic\\\".\"; ObjectID = \"xlO-Fz-Nxq\";",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -435,11 +434,11 @@
     },
     "xz2-3l-Jef.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"You can upload any files using terminal srcipt or Apple Script.\\nCheck tutorial for more info.\"; ObjectID = \"xz2-3l-Jef\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "You can upload any files using terminal srcipt or Apple Script.\nCheck tutorial for more info."
           }
         },

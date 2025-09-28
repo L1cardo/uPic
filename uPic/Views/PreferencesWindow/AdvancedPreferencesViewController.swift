@@ -7,13 +7,13 @@
 //
 
 import Cocoa
-import MASShortcut
+import KeyboardShortcuts
 
 class AdvancedPreferencesViewController: PreferencesViewController {
     
-    @IBOutlet weak var selectFileShortcut: MASShortcutView!
-    @IBOutlet weak var pasteboardShortcut: MASShortcutView!
-    @IBOutlet weak var screenshotShortcut: MASShortcutView!
+    @IBOutlet weak var selectFileShortcut: NSSearchField!
+    @IBOutlet weak var pasteboardShortcut: NSSearchField!
+    @IBOutlet weak var screenshotShortcut: NSSearchField!
     @IBOutlet weak var historyRecordWidth: NSTextField!
     @IBOutlet weak var historyRecordColumns: NSTextField!
     @IBOutlet weak var historyRecordSpacing: NSTextField!
@@ -34,11 +34,12 @@ class AdvancedPreferencesViewController: PreferencesViewController {
         checkFullDiskAuthorizationStatus()
     }
     
+    override func loadView() {
+        super.loadView()
+        setupKeyboardShortcutsView()
+    }
+    
     func resetAllValues() {
-        selectFileShortcut.associatedUserDefaultsKey = Constants.Key.selectFileShortcut
-        pasteboardShortcut.associatedUserDefaultsKey = Constants.Key.pasteboardShortcut
-        screenshotShortcut.associatedUserDefaultsKey = Constants.Key.screenshotShortcut
-        
         setHistoryRecordTextFieldDefaultText()
         setScreenshotAppDefaultValue()
     }
@@ -142,6 +143,7 @@ class AdvancedPreferencesViewController: PreferencesViewController {
             ConfigManager.shared.removeAllUserDefaults()
             ConfigManager.shared.firstSetup()
             ScreenUtil.resetScreenshotApp()
+            KeyboardShortcuts.resetAll()
             
             DispatchQueue.main.async {
                 ConfigNotifier.postNotification(.changeHistoryList)
@@ -151,5 +153,11 @@ class AdvancedPreferencesViewController: PreferencesViewController {
         default:
             print("Cancel Resetting User Preferences")
         }
+    }
+    
+    func setupKeyboardShortcutsView() {
+        selectFileShortcut.addSubview(KeyboardShortcuts.RecorderCocoa(for: .selectFileShortcut))
+        pasteboardShortcut.addSubview(KeyboardShortcuts.RecorderCocoa(for: .pasteboardShortcut))
+        screenshotShortcut.addSubview(KeyboardShortcuts.RecorderCocoa(for: .screenshotShortcut))
     }
 }

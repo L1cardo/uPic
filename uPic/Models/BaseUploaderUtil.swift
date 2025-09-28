@@ -8,6 +8,7 @@
 
 import Foundation
 import libminipng
+import AppKit
 
 class BaseUploaderUtil {
     
