@@ -13,7 +13,6 @@
 		16068C7822AECB34004D39B7 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16068C7722AECB34004D39B7 /* PreferencesWindowController.swift */; };
 		16068C7C22AECD9F004D39B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16068C7B22AECD9F004D39B7 /* Constants.swift */; };
 		160CAA2522B1ED6F00D04FBD /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160CAA2422B1ED6F00D04FBD /* PreferenceKey.swift */; };
-		1613D88725C9826B009E348A /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 1613D88625C9826B009E348A /* AutoGenStrings.py */; };
 		16181F402CCF43310040D761 /* WCDBSwiftDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		161ABBDD23B1F1EB00805C5B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161ABBDC23B1F1EB00805C5B /* DBManager.swift */; };
 		161C3BE122C483380092114F /* CustomUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C3BE022C4831B0092114F /* CustomUploader.swift */; };
@@ -147,9 +146,9 @@
 		965E817125B721650031A01F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E817025B721650031A01F /* WelcomeViewController.swift */; };
 		965E819B25B7274E0031A01F /* WelcomeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E819A25B7274E0031A01F /* WelcomeWindowController.swift */; };
 		966BF3592E89402400BE9EC7 /* PasteboardType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */; };
+		966BF3F32E894A4A00BE9EC7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 966BF3F22E894A4A00BE9EC7 /* icon.icns */; };
 		96767C02266C8AEB00867727 /* UPic.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 96767C01266C8AEB00867727 /* UPic.sdef */; };
 		96767C09266CABC800867727 /* AppleScriptCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96767C08266CABC800867727 /* AppleScriptCommand.swift */; };
-		96B6C3F125AD89F200B1A584 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96B6C3F025AD89F200B1A584 /* icon.icns */; };
 		96B6C3F325AD89F200B1A584 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6C3F225AD89F200B1A584 /* ShareViewController.swift */; };
 		96B6C3F625AD89F200B1A584 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B6C3F425AD89F200B1A584 /* ShareViewController.xib */; };
 		96B6C3FB25AD89F200B1A584 /* uPicShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 96B6C3EE25AD89F200B1A584 /* uPicShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -339,10 +338,10 @@
 		965E817025B721650031A01F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		965E819A25B7274E0031A01F /* WelcomeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowController.swift; sourceTree = "<group>"; };
 		966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasteboardType+Extension.swift"; sourceTree = "<group>"; };
+		966BF3F22E894A4A00BE9EC7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		96767C01266C8AEB00867727 /* UPic.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UPic.sdef; sourceTree = "<group>"; };
 		96767C08266CABC800867727 /* AppleScriptCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptCommand.swift; sourceTree = "<group>"; };
 		96B6C3EE25AD89F200B1A584 /* uPicShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = uPicShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B6C3F025AD89F200B1A584 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		96B6C3F225AD89F200B1A584 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		96B6C3F525AD89F200B1A584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
 		96B6C3F725AD89F200B1A584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -802,7 +801,7 @@
 			isa = PBXGroup;
 			children = (
 				16A0480525B18317000F1323 /* uPicShareExtensionDebug.entitlements */,
-				96B6C3F025AD89F200B1A584 /* icon.icns */,
+				966BF3F22E894A4A00BE9EC7 /* icon.icns */,
 				96B6C3F225AD89F200B1A584 /* ShareViewController.swift */,
 				96B6C3F425AD89F200B1A584 /* ShareViewController.xib */,
 				96B6C3F725AD89F200B1A584 /* Info.plist */,
@@ -970,7 +969,6 @@
 				1648A216238E742600B99B9D /* Main.storyboard in Resources */,
 				96F633FF25AF008F005514EB /* Database.storyboard in Resources */,
 				165C86D325B91F8000C538AD /* ScreenshotAuthorizationHelp.storyboard in Resources */,
-				1613D88725C9826B009E348A /* AutoGenStrings.py in Resources */,
 				962559AF2E89094300170641 /* Localizable.xcstrings in Resources */,
 				96767C02266C8AEB00867727 /* UPic.sdef in Resources */,
 				169F073B22AF53DE008E8525 /* Preferences.storyboard in Resources */,
@@ -982,10 +980,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966BF3F32E894A4A00BE9EC7 /* icon.icns in Resources */,
 				962559B42E89094300170641 /* InfoPlist.xcstrings in Resources */,
 				96B6C3F625AD89F200B1A584 /* ShareViewController.xib in Resources */,
 				962559B02E89094300170641 /* Localizable.xcstrings in Resources */,
-				96B6C3F125AD89F200B1A584 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
