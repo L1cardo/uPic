@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "8OE-MZ-BV3.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"请打开系统偏好设置，“点击安全性与隐私”\"; ObjectID = \"8OE-MZ-BV3\"; Note = \"step1\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please open System Preferences and click `Security and Privacy`"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请打开系统偏好设置，“点击安全性与隐私”"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請打開系統偏好設定，“點擊安全性與隱私”"
+          }
+        }
+      }
+    },
+    "IIp-aX-hKg.title" : {
+      "comment" : "Class = \"NSWindow\"; title = \"Window\"; ObjectID = \"IIp-aX-hKg\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Screenshot Permission Tutorial"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取截图权限教程"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獲取截圖許可權教程"
+          }
+        }
+      }
+    },
+    "MZV-nV-okO.title" : {
+      "comment" : "Class = \"NSButton\"; title = \"Open Security & Privacy\"; ObjectID = \"MZV-nV-okO\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Security & Privacy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开安全性与隐私"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開安全性與隱私"
+          }
+        }
+      }
+    },
+    "qqL-jK-k4X.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"授予 uPic “屏幕录制”权限\"; ObjectID = \"qqL-jK-k4X\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grant uPic `screen recording` permission"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授予 uPic “屏幕录制”权限"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授予 uPic “荧幕錄製”許可權"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
