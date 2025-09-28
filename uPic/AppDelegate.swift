@@ -12,6 +12,7 @@ import Alamofire
 import AppKit
 import ScriptingBridge
 import KeyboardShortcuts
+import UniformTypeIdentifiers
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -231,7 +232,7 @@ extension AppDelegate {
         openPanel.canChooseFiles = true
         
         if fileExtensions.count > 0 {
-            openPanel.allowedFileTypes = fileExtensions
+            openPanel.allowedContentTypes = fileExtensions.compactMap { UTType(filenameExtension: $0) }
         }
         
         openPanel.begin { (result) -> Void in
@@ -672,4 +673,3 @@ extension AppDelegate {
         return outputStr
     }
 }
-

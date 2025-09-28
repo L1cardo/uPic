@@ -623,7 +623,7 @@
                                                     <font key="font" usesAppearanceFont="YES"/>
                                                     <menu key="menu" id="0nT-MW-cvO">
                                                         <items>
-                                                            <menuItem title="macOS" state="on" image="applelogo" catalog="system" id="Dvs-LH-gLm"/>
+                                                            <menuItem title="macOS" state="on" image="apple.logo" catalog="system" id="Dvs-LH-gLm"/>
                                                             <menuItem title="Longshot" image="LongShot" id="7P7-Gy-ZGZ"/>
                                                         </items>
                                                     </menu>
@@ -838,7 +838,7 @@
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
-                                                        <tableColumn identifier="name" width="112" minWidth="10" maxWidth="3.4028234663852886e+38" id="NLj-vQ-ghD">
+                                                        <tableColumn identifier="name" width="111.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="NLj-vQ-ghD">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -846,7 +846,7 @@
                                                             <customCell key="dataCell" alignment="left" id="Py6-MK-ns0"/>
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                         </tableColumn>
-                                                        <tableColumn identifier="value" width="284.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="RAq-Oy-he8">
+                                                        <tableColumn identifier="value" width="283.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="RAq-Oy-he8">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Custom Style">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1640,7 +1640,7 @@ Gw
         <image name="NSPreferencesGeneral" width="32" height="32"/>
         <image name="NSRemoveTemplate" width="18" height="5"/>
         <image name="NSStatusPartiallyAvailable" width="16" height="16"/>
-        <image name="applelogo" catalog="system" width="12" height="15"/>
+        <image name="apple.logo" catalog="system" width="12" height="15"/>
         <image name="downloadOnAppStore" width="120" height="40"/>
         <image name="host" width="64" height="64"/>
     </resources>

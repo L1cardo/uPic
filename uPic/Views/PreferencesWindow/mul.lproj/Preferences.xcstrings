@@ -3,7 +3,6 @@
   "strings" : {
     "0dV-As-mmQ.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"svend.cc\"; ObjectID = \"0dV-As-mmQ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -70,7 +69,6 @@
     },
     "5f3-UK-Rft.title" : {
       "comment" : "Class = \"NSWindow\"; title = \"Preferences\"; ObjectID = \"5f3-UK-Rft\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -136,7 +134,6 @@
     },
     "5Ln-jV-uxk.title" : {
       "comment" : "Class = \"NSViewController\"; title = \"Host\"; ObjectID = \"5Ln-jV-uxk\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -202,7 +199,6 @@
     },
     "7Gg-u8-8Yt.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Show\"; ObjectID = \"7Gg-u8-8Yt\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -268,7 +264,6 @@
     },
     "7P7-Gy-ZGZ.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Longshot\"; ObjectID = \"7P7-Gy-ZGZ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -335,7 +330,6 @@
     },
     "8gb-uy-oRd.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Reset\"; ObjectID = \"8gb-uy-oRd\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -401,7 +395,6 @@
     },
     "8lH-1K-GR0.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Copy\"; ObjectID = \"8lH-1K-GR0\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -492,7 +485,6 @@
     },
     "AYG-Uz-MYq.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Spacing:\"; ObjectID = \"AYG-Uz-MYq\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -558,7 +550,6 @@
     },
     "BBZ-i9-B2g.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"File name scroll speed:\"; ObjectID = \"BBZ-i9-B2g\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -624,7 +615,6 @@
     },
     "bp8-mz-gke.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Padding:\"; ObjectID = \"bp8-mz-gke\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -690,7 +680,6 @@
     },
     "bvy-v3-hhf.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload from clipboard:\"; ObjectID = \"bvy-v3-hhf\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -756,7 +745,6 @@
     },
     "chO-9j-Fca.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Edit\"; ObjectID = \"chO-9j-Fca\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -822,7 +810,6 @@
     },
     "Ckh-A7-mxC.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Add Header Field\"; ObjectID = \"Ckh-A7-mxC\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -888,7 +875,6 @@
     },
     "Cp0-zp-Dpm.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"OK\"; ObjectID = \"Cp0-zp-Dpm\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -954,7 +940,6 @@
     },
     "dEW-XT-ogl.title" : {
       "comment" : "Class = \"NSBox\"; title = \"HostSettings\"; ObjectID = \"dEW-XT-ogl\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1020,7 +1005,6 @@
     },
     "Dvs-LH-gLm.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"macOS\"; ObjectID = \"Dvs-LH-gLm\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1087,7 +1071,6 @@
     },
     "dZy-kW-0lH.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"More\"; ObjectID = \"dZy-kW-0lH\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1153,7 +1136,6 @@
     },
     "f1C-OB-3jS.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"uPic for iOS is now available on App Store!\"; ObjectID = \"f1C-OB-3jS\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1219,7 +1201,6 @@
     },
     "f2V-P5-pQI.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"https://github.com/gee1k/uPic\"; ObjectID = \"f2V-P5-pQI\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1286,7 +1267,6 @@
     },
     "FpP-Q9-flS.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Shortcuts\"; ObjectID = \"FpP-Q9-flS\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1352,7 +1332,6 @@
     },
     "Gn1-zC-bzB.title" : {
       "comment" : "Class = \"NSViewController\"; title = \"General\"; ObjectID = \"Gn1-zC-bzB\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1418,7 +1397,6 @@
     },
     "Gu0-HV-q4H.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Full Disk Access\"; ObjectID = \"Gu0-HV-q4H\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1484,7 +1462,6 @@
     },
     "gUg-yZ-cS0.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Save\"; ObjectID = \"gUg-yZ-cS0\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1616,7 +1593,6 @@
     },
     "Gws-yz-JWw.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Note: Please use {url} {filename} as placeholder for your url\"; ObjectID = \"Gws-yz-JWw\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1682,7 +1658,6 @@
     },
     "GzP-4S-ioU.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Output Format Customization\"; ObjectID = \"GzP-4S-ioU\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1748,7 +1723,6 @@
     },
     "H3q-JS-Bu4.title" : {
       "comment" : "Class = \"NSViewController\"; title = \"Advanced\"; ObjectID = \"H3q-JS-Bu4\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1814,7 +1788,6 @@
     },
     "How-dP-tcX.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"💻 GitHub:\"; ObjectID = \"How-dP-tcX\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1905,7 +1878,6 @@
     },
     "IPL-yO-Vkp.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"svend.jin@gmail.com\"; ObjectID = \"IPL-yO-Vkp\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1971,7 +1943,6 @@
     },
     "iRI-j6-BHQ.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Width:\"; ObjectID = \"iRI-j6-BHQ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2037,7 +2008,6 @@
     },
     "Jbz-2F-L08.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Config\"; ObjectID = \"Jbz-2F-L08\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2103,7 +2073,6 @@
     },
     "jcs-Ou-OZ2.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Reset\"; ObjectID = \"jcs-Ou-OZ2\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2169,7 +2138,6 @@
     },
     "Jnf-AX-bIr.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"0.1.0\"; ObjectID = \"Jnf-AX-bIr\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2235,7 +2203,6 @@
     },
     "jyI-H7-qN3.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Reset preferences\"; ObjectID = \"jyI-H7-qN3\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2301,7 +2268,6 @@
     },
     "k4M-cg-63L.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Save\"; ObjectID = \"k4M-cg-63L\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2367,7 +2333,6 @@
     },
     "k6X-N1-mVu.title" : {
       "comment" : "Class = \"NSViewController\"; title = \"About\"; ObjectID = \"k6X-N1-mVu\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2433,7 +2398,6 @@
     },
     "kiG-mF-GIz.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Screenshot App\"; ObjectID = \"kiG-mF-GIz\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2499,7 +2463,6 @@
     },
     "l8U-fu-WXc.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Not Authorized\"; ObjectID = \"l8U-fu-WXc\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2565,7 +2528,6 @@
     },
     "mOB-su-ZM1.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"uPic\"; ObjectID = \"mOB-su-ZM1\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2632,7 +2594,6 @@
     },
     "Mqt-Fp-Ssl.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload from select file:\"; ObjectID = \"Mqt-Fp-Ssl\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2698,7 +2659,6 @@
     },
     "N1b-Cf-tno.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Columns:\"; ObjectID = \"N1b-Cf-tno\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2764,7 +2724,6 @@
     },
     "nB3-hC-RSM.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Delete\"; ObjectID = \"nB3-hC-RSM\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2830,7 +2789,6 @@
     },
     "ngT-lX-vFA.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"uPic will automatically launch at login.\"; ObjectID = \"ngT-lX-vFA\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2896,7 +2854,6 @@
     },
     "NLj-vQ-ghD.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Name\"; ObjectID = \"NLj-vQ-ghD\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2962,7 +2919,6 @@
     },
     "nvN-EI-scz.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Save\"; ObjectID = \"nvN-EI-scz\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3028,7 +2984,6 @@
     },
     "OaN-c4-l0X.title" : {
       "comment" : "Class = \"NSBox\"; title = \"Header and Body Data\"; ObjectID = \"OaN-c4-l0X\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3094,7 +3049,6 @@
     },
     "OjL-Zl-YKD.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"💡 HomePage:\"; ObjectID = \"OjL-Zl-YKD\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3160,7 +3114,6 @@
     },
     "ON0-aF-BNd.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"File name scroll wait time:\"; ObjectID = \"ON0-aF-BNd\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3226,7 +3179,6 @@
     },
     "osM-Ga-s0H.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Add Body Field\"; ObjectID = \"osM-Ga-s0H\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3292,7 +3244,6 @@
     },
     "PmD-JC-2Hq.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"⚠️ Note that this will reset all user preferences\"; ObjectID = \"PmD-JC-2Hq\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3358,7 +3309,6 @@
     },
     "q1H-P0-jix.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Cancel\"; ObjectID = \"q1H-P0-jix\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3424,7 +3374,6 @@
     },
     "R0i-0c-6TZ.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Supports {year} {month} {day} {hour} {minute} {second} {since_second} {since_millisecond} {random} {filename} {.suffix} {suffix} {mimetype} {saveKey} and etc.\"; ObjectID = \"R0i-0c-6TZ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3490,7 +3439,6 @@
     },
     "RAq-Oy-he8.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Custom Style\"; ObjectID = \"RAq-Oy-he8\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3556,7 +3504,6 @@
     },
     "SfQ-Lo-Xpr.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Cancel\"; ObjectID = \"SfQ-Lo-Xpr\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3622,7 +3569,6 @@
     },
     "TD4-LI-X9U.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"⚠️ Reset\"; ObjectID = \"TD4-LI-X9U\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3688,7 +3634,6 @@
     },
     "ul8-3a-sB4.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"✋Welcome Page:\"; ObjectID = \"ul8-3a-sB4\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3754,7 +3699,6 @@
     },
     "UN0-Iq-Cop.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"History record\"; ObjectID = \"UN0-Iq-Cop\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3820,7 +3764,6 @@
     },
     "Vu4-Wz-Agk.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"✉️ Contact:\"; ObjectID = \"Vu4-Wz-Agk\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3886,7 +3829,6 @@
     },
     "w0T-ah-0NT.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Output Format Customization\"; ObjectID = \"w0T-ah-0NT\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3952,7 +3894,6 @@
     },
     "Xd9-iA-emU.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload from screenshot:\"; ObjectID = \"Xd9-iA-emU\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4018,7 +3959,6 @@
     },
     "ZbK-xW-anT.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Launch uPic at login\"; ObjectID = \"ZbK-xW-anT\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {

@@ -49,7 +49,6 @@
 		165701A122C8A6E600C57EE9 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165701A022C8A6E600C57EE9 /* Regex.swift */; };
 		165701A322C8AE0A00C57EE9 /* WeiboUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165701A222C8AE0A00C57EE9 /* WeiboUtil.swift */; };
 		165C86D325B91F8000C538AD /* ScreenshotAuthorizationHelp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165C86D525B91F8000C538AD /* ScreenshotAuthorizationHelp.storyboard */; };
-		165D908622C333740096FF38 /* PasteboardType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D908522C333740096FF38 /* PasteboardType+Extension.swift */; };
 		1660FCBA22C11C2300372950 /* TencentHostConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1660FCB922C11BA000372950 /* TencentHostConfig.swift */; };
 		1660FCBB22C11C7200372950 /* TencentUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1660FCB722C11BA000372950 /* TencentUploader.swift */; };
 		1660FCBC22C11C7500372950 /* TencentUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1660FCB822C11BA000372950 /* TencentUtil.swift */; };
@@ -147,6 +146,7 @@
 		964198C82729A7F60001AB97 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 964198C72729A7F60001AB97 /* SnapKit */; };
 		965E817125B721650031A01F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E817025B721650031A01F /* WelcomeViewController.swift */; };
 		965E819B25B7274E0031A01F /* WelcomeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E819A25B7274E0031A01F /* WelcomeWindowController.swift */; };
+		966BF3592E89402400BE9EC7 /* PasteboardType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */; };
 		96767C02266C8AEB00867727 /* UPic.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 96767C01266C8AEB00867727 /* UPic.sdef */; };
 		96767C09266CABC800867727 /* AppleScriptCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96767C08266CABC800867727 /* AppleScriptCommand.swift */; };
 		96B6C3F125AD89F200B1A584 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96B6C3F025AD89F200B1A584 /* icon.icns */; };
@@ -240,7 +240,6 @@
 		165701A022C8A6E600C57EE9 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		165701A222C8AE0A00C57EE9 /* WeiboUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboUtil.swift; sourceTree = "<group>"; };
 		165C86D425B91F8000C538AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ScreenshotAuthorizationHelp.storyboard; sourceTree = "<group>"; };
-		165D908522C333740096FF38 /* PasteboardType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasteboardType+Extension.swift"; sourceTree = "<group>"; };
 		1660FCB622C11BA000372950 /* TencentRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentRegion.swift; sourceTree = "<group>"; };
 		1660FCB722C11BA000372950 /* TencentUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentUploader.swift; sourceTree = "<group>"; };
 		1660FCB822C11BA000372950 /* TencentUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentUtil.swift; sourceTree = "<group>"; };
@@ -339,6 +338,7 @@
 		962559B62E89094300170641 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
 		965E817025B721650031A01F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		965E819A25B7274E0031A01F /* WelcomeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowController.swift; sourceTree = "<group>"; };
+		966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasteboardType+Extension.swift"; sourceTree = "<group>"; };
 		96767C01266C8AEB00867727 /* UPic.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UPic.sdef; sourceTree = "<group>"; };
 		96767C08266CABC800867727 /* AppleScriptCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptCommand.swift; sourceTree = "<group>"; };
 		96B6C3EE25AD89F200B1A584 /* uPicShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = uPicShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -432,9 +432,9 @@
 				16B4F0BD23ADCFFF00846BD3 /* String+Crypto.swift */,
 				163632EE22B2749000805E7F /* NSTextFieldCell+VerticallyCentered.swift */,
 				163632F222B2751D00805E7F /* BoolType.swift */,
-				165D908522C333740096FF38 /* PasteboardType+Extension.swift */,
 				165701A022C8A6E600C57EE9 /* Regex.swift */,
 				1685AA3422DEC943008FBF1D /* FlippedView.swift */,
+				966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -1048,13 +1048,13 @@
 				1690E7EB22BF2D9400FC81F8 /* QiniuUploader.swift in Sources */,
 				965E819B25B7274E0031A01F /* WelcomeWindowController.swift in Sources */,
 				1657019B22C8934000C57EE9 /* WeiboqQuality.swift in Sources */,
-				165D908622C333740096FF38 /* PasteboardType+Extension.swift in Sources */,
 				16A6DC5822AA375700813706 /* AppDelegate.swift in Sources */,
 				16D20B5623838AB5006D8D01 /* BaiduHostConfig.swift in Sources */,
 				16CD34FB23BC8966005B52F2 /* Swime.swift in Sources */,
 				1602ED9722ADEFB200AA8638 /* BaseUploader.swift in Sources */,
 				163632F322B2751D00805E7F /* BoolType.swift in Sources */,
 				1646B80722C79346009271DF /* GiteeHostConfig.swift in Sources */,
+				966BF3592E89402400BE9EC7 /* PasteboardType+Extension.swift in Sources */,
 				4BC11BDC238CD8CD001641A6 /* HistoryThumbnailLabel.swift in Sources */,
 				16E3B57925B5342000D4234F /* OutputFormatModel.swift in Sources */,
 				96FD4E142E89147A001D2E32 /* KeyboardShortcuts+Name.swift in Sources */,
