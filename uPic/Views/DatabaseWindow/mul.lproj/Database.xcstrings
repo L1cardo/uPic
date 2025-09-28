@@ -135,7 +135,6 @@
     },
     "A25-IL-lsb.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Name\"; ObjectID = \"A25-IL-lsb\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -590,7 +589,6 @@
     },
     "Mwg-rj-Qgg.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"URL\"; ObjectID = \"Mwg-rj-Qgg\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -656,7 +654,6 @@
     },
     "nOC-jD-wpP.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"1\"; ObjectID = \"nOC-jD-wpP\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -723,7 +720,6 @@
     },
     "nzt-ZE-Al0.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Name\"; ObjectID = \"nzt-ZE-Al0\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1078,7 +1074,6 @@
     },
     "xFO-bI-gPs.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Size\"; ObjectID = \"xFO-bI-gPs\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {

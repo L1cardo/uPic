@@ -70,28 +70,16 @@
       "comment" : "Class = \"NSWindow\"; title = \"Window\"; ObjectID = \"IIp-aX-hKg\";",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Get Screenshot Permission Tutorial"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "获取截图权限教程"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "獲取截圖許可權教程"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Screenshot-Berechtigung erhalten Anleitung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Screenshot Permission Tutorial"
           }
         },
         "es" : {
@@ -129,35 +117,34 @@
             "state" : "translated",
             "value" : "Инструкция по получению разрешения на скриншоты"
           }
-        }
-      }
-    },
-    "MZV-nV-okO.title" : {
-      "comment" : "Class = \"NSButtonCell\"; title = \"Open Security & Privacy\"; ObjectID = \"MZV-nV-okO\";",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Security & Privacy"
-          }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开安全性与隐私"
+            "value" : "获取截图权限教程"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開安全性與隱私"
+            "value" : "獲取截圖許可權教程"
           }
-        },
+        }
+      }
+    },
+    "MZV-nV-okO.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open Security & Privacy\"; ObjectID = \"MZV-nV-okO\";",
+      "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sicherheit & Datenschutz öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Security & Privacy"
           }
         },
         "es" : {
@@ -195,34 +182,34 @@
             "state" : "translated",
             "value" : "Открыть Безопасность и конфиденциальность"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开安全性与隐私"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開安全性與隱私"
+          }
         }
       }
     },
     "qqL-jK-k4X.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"授予 uPic “屏幕录制”权限\"; ObjectID = \"qqL-jK-k4X\";",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grant uPic `screen recording` permission"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "授予 uPic “屏幕录制”权限"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "授予 uPic \"荧幕錄製\"許可權"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gewähren Sie uPic die 'Bildschirmaufnahme'-Berechtigung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grant uPic `screen recording` permission"
           }
         },
         "es" : {
@@ -259,6 +246,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Предоставьте uPic разрешение 'запись экрана'"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授予 uPic “屏幕录制”权限"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授予 uPic \"荧幕錄製\"許可權"
           }
         }
       }

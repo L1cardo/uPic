@@ -3,7 +3,6 @@
   "strings" : {
     "0JF-m2-1iq.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Quit\"; ObjectID = \"0JF-m2-1iq\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -69,7 +68,6 @@
     },
     "1BX-LF-q51.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Output format\"; ObjectID = \"1BX-LF-q51\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -135,7 +133,6 @@
     },
     "1Xt-HY-uBw.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"uPic\"; ObjectID = \"1Xt-HY-uBw\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -267,7 +264,6 @@
     },
     "2Jw-ET-3eH.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"More\"; ObjectID = \"2Jw-ET-3eH\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -333,7 +329,6 @@
     },
     "4sb-4s-VLi.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Quit uPic\"; ObjectID = \"4sb-4s-VLi\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -399,7 +394,6 @@
     },
     "4yH-6k-LD0.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Compress images before uploading\"; ObjectID = \"4yH-6k-LD0\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -465,7 +459,6 @@
     },
     "5kV-Vb-QxS.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"About uPic\"; ObjectID = \"5kV-Vb-QxS\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -531,7 +524,6 @@
     },
     "5QF-Oa-p0T.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Edit\"; ObjectID = \"5QF-Oa-p0T\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -597,7 +589,6 @@
     },
     "6dh-zS-Vam.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Redo\"; ObjectID = \"6dh-zS-Vam\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -663,7 +654,6 @@
     },
     "AYu-sK-qS6.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Main Menu\"; ObjectID = \"AYu-sK-qS6\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -730,7 +720,6 @@
     },
     "bib-Uj-vzu.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"File\"; ObjectID = \"bib-Uj-vzu\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -796,7 +785,6 @@
     },
     "d02-bT-1Lv.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Host\"; ObjectID = \"d02-bT-1Lv\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -862,7 +850,6 @@
     },
     "dMs-cI-mzQ.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"File\"; ObjectID = \"dMs-cI-mzQ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -928,7 +915,6 @@
     },
     "dRJ-4n-Yzg.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Undo\"; ObjectID = \"dRJ-4n-Yzg\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -994,7 +980,6 @@
     },
     "DVo-aG-piG.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Close\"; ObjectID = \"DVo-aG-piG\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1060,7 +1045,6 @@
     },
     "EhO-Zw-XXj.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"History record\"; ObjectID = \"EhO-Zw-XXj\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1126,7 +1110,6 @@
     },
     "eIU-EA-uQZ.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Compress images before uploading\"; ObjectID = \"eIU-EA-uQZ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1192,7 +1175,6 @@
     },
     "F4P-SL-bu2.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Custom\"; ObjectID = \"F4P-SL-bu2\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1258,7 +1240,6 @@
     },
     "gVA-U4-sdL.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Paste\"; ObjectID = \"gVA-U4-sdL\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1324,7 +1305,6 @@
     },
     "Gxh-8r-tsq.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Cancel upload\"; ObjectID = \"Gxh-8r-tsq\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1390,7 +1370,6 @@
     },
     "HNM-7K-zzn.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Import host configuration\"; ObjectID = \"HNM-7K-zzn\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1456,7 +1435,6 @@
     },
     "Hz2-gj-luo.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"UBB\"; ObjectID = \"Hz2-gj-luo\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1522,7 +1500,6 @@
     },
     "J3c-l3-LmQ.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Host\"; ObjectID = \"J3c-l3-LmQ\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1588,7 +1565,6 @@
     },
     "jbA-xM-vl3.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Output format encode\"; ObjectID = \"jbA-xM-vl3\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1654,7 +1630,6 @@
     },
     "MjM-mX-Ci5.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"History record\"; ObjectID = \"MjM-mX-Ci5\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1720,7 +1695,6 @@
     },
     "NcU-Ek-lED.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Output format encode\"; ObjectID = \"NcU-Ek-lED\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1786,7 +1760,6 @@
     },
     "O8o-6e-fZn.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Tutorial\"; ObjectID = \"O8o-6e-fZn\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1852,7 +1825,6 @@
     },
     "Opc-aA-hUg.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Markdown\"; ObjectID = \"Opc-aA-hUg\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1919,7 +1891,6 @@
     },
     "orX-KL-q11.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Upload from clipboard\"; ObjectID = \"orX-KL-q11\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1985,7 +1956,6 @@
     },
     "p0A-6d-cAU.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Upload from select file\"; ObjectID = \"p0A-6d-cAU\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2051,7 +2021,6 @@
     },
     "pa3-QI-u2k.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Delete\"; ObjectID = \"pa3-QI-u2k\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2117,7 +2086,6 @@
     },
     "Ruw-6m-B2m.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Select All\"; ObjectID = \"Ruw-6m-B2m\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2183,7 +2151,6 @@
     },
     "U1c-9i-q5b.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"URL\"; ObjectID = \"U1c-9i-q5b\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2250,7 +2217,6 @@
     },
     "ueU-fm-1nn.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Upload from screenshot\"; ObjectID = \"ueU-fm-1nn\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2316,7 +2282,6 @@
     },
     "uQy-DD-JDr.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"uPic\"; ObjectID = \"uQy-DD-JDr\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2383,7 +2348,6 @@
     },
     "uRl-iY-unG.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Cut\"; ObjectID = \"uRl-iY-unG\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2449,7 +2413,6 @@
     },
     "VW7-Z2-hXR.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Preferences\"; ObjectID = \"VW7-Z2-hXR\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2515,7 +2478,6 @@
     },
     "W48-6f-4Dl.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Edit\"; ObjectID = \"W48-6f-4Dl\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2581,7 +2543,6 @@
     },
     "wCN-Y7-fdU.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"HTML\"; ObjectID = \"wCN-Y7-fdU\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2648,7 +2609,6 @@
     },
     "x3v-GG-iWU.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Copy\"; ObjectID = \"x3v-GG-iWU\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2714,7 +2674,6 @@
     },
     "XmF-iN-Y0V.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"Output format\"; ObjectID = \"XmF-iN-Y0V\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2780,7 +2739,6 @@
     },
     "Xs3-BB-xC7.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"uPic Database\"; ObjectID = \"Xs3-BB-xC7\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2846,7 +2804,6 @@
     },
     "ynd-0y-yEv.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"On\"; ObjectID = \"ynd-0y-yEv\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2912,7 +2869,6 @@
     },
     "Yuc-Vp-9Pd.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Export host configuration\"; ObjectID = \"Yuc-Vp-9Pd\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2978,7 +2934,6 @@
     },
     "yW4-Cl-nF5.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Off\"; ObjectID = \"yW4-Cl-nF5\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3044,7 +2999,6 @@
     },
     "Z6H-TN-83r.title" : {
       "comment" : "Class = \"NSMenu\"; title = \"More\"; ObjectID = \"Z6H-TN-83r\";",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringUnit" : {
