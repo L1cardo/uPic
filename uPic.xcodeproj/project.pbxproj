@@ -140,7 +140,6 @@
 		962559B02E89094300170641 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 962559AE2E89094300170641 /* Localizable.xcstrings */; };
 		962559B42E89094300170641 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 962559B32E89094300170641 /* InfoPlist.xcstrings */; };
 		964198B62729A6BA0001AB97 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 964198B52729A6BA0001AB97 /* SwiftyJSON */; };
-		964198BC2729A75B0001AB97 /* MASShortcut in Frameworks */ = {isa = PBXBuildFile; productRef = 964198BB2729A75B0001AB97 /* MASShortcut */; };
 		964198C02729A7E30001AB97 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 964198BF2729A7E30001AB97 /* Alamofire */; };
 		964198C22729A7E90001AB97 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 964198C12729A7E90001AB97 /* CryptoSwift */; };
 		964198C42729A7EC0001AB97 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = 964198C32729A7EC0001AB97 /* SwiftyXMLParser */; };
@@ -150,7 +149,6 @@
 		965E819B25B7274E0031A01F /* WelcomeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E819A25B7274E0031A01F /* WelcomeWindowController.swift */; };
 		96767C02266C8AEB00867727 /* UPic.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 96767C01266C8AEB00867727 /* UPic.sdef */; };
 		96767C09266CABC800867727 /* AppleScriptCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96767C08266CABC800867727 /* AppleScriptCommand.swift */; };
-		967A6B7D2C9057E200C3DDEB /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 967A6B7C2C9057E200C3DDEB /* LaunchAtLogin */; };
 		96B6C3F125AD89F200B1A584 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96B6C3F025AD89F200B1A584 /* icon.icns */; };
 		96B6C3F325AD89F200B1A584 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6C3F225AD89F200B1A584 /* ShareViewController.swift */; };
 		96B6C3F625AD89F200B1A584 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B6C3F425AD89F200B1A584 /* ShareViewController.xib */; };
@@ -359,11 +357,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964198BC2729A75B0001AB97 /* MASShortcut in Frameworks */,
 				16725B262E7F02B100A8FB12 /* LCPermissionsKit in Frameworks */,
 				1649393D285E2620007278DA /* CocoaLumberjack in Frameworks */,
 				1649394D285F1C45007278DA /* Zip in Frameworks */,
-				967A6B7D2C9057E200C3DDEB /* LaunchAtLogin in Frameworks */,
 				1649393F285E2620007278DA /* CocoaLumberjackSwift in Frameworks */,
 				964198B62729A6BA0001AB97 /* SwiftyJSON in Frameworks */,
 				964198C62729A7F00001AB97 /* Kingfisher in Frameworks */,
@@ -850,7 +846,6 @@
 			name = uPic;
 			packageProductDependencies = (
 				964198B52729A6BA0001AB97 /* SwiftyJSON */,
-				964198BB2729A75B0001AB97 /* MASShortcut */,
 				964198BF2729A7E30001AB97 /* Alamofire */,
 				964198C12729A7E90001AB97 /* CryptoSwift */,
 				964198C32729A7EC0001AB97 /* SwiftyXMLParser */,
@@ -860,7 +855,6 @@
 				1649393C285E2620007278DA /* CocoaLumberjack */,
 				1649393E285E2620007278DA /* CocoaLumberjackSwift */,
 				1649394C285F1C45007278DA /* Zip */,
-				967A6B7C2C9057E200C3DDEB /* LaunchAtLogin */,
 				9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */,
 				16725B252E7F02B100A8FB12 /* LCPermissionsKit */,
 			);
@@ -931,13 +925,13 @@
 				9630C4252729A0D0009E8735 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				9630C4262729A0EA009E8735 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				964198B42729A6BA0001AB97 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
-				964198BA2729A75A0001AB97 /* XCRemoteSwiftPackageReference "MASShortcut" */,
 				16539DCD278AD8700035B9DF /* XCRemoteSwiftPackageReference "soto" */,
 				1649393B285E2620007278DA /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 				1649394B285F1C44007278DA /* XCRemoteSwiftPackageReference "Zip" */,
-				967A6B7B2C9057E200C3DDEB /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */,
 				9610BE8C2CCE84A300FD9F77 /* XCRemoteSwiftPackageReference "wcdb" */,
 				16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */,
+				962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+				962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
 			);
 			productRefGroup = 16A6DC4B22AA375700813706;
 			projectDirPath = "";
@@ -1408,7 +1402,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.4.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1445,7 +1439,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.4.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1573,7 +1567,7 @@
 			repositoryURL = "https://github.com/soto-project/soto.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 6.6.0;
+				minimumVersion = 7.9.0;
 			};
 		};
 		16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */ = {
@@ -1590,6 +1584,22 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.1.9;
+			};
+		};
+		962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
 			};
 		};
 		9630C4222729A05E009E8735 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
@@ -1621,7 +1631,7 @@
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.12.0;
+				minimumVersion = 8.5.0;
 			};
 		};
 		9630C4262729A0EA009E8735 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
@@ -1635,22 +1645,6 @@
 		964198B42729A6BA0001AB97 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.2;
-			};
-		};
-		964198BA2729A75A0001AB97 /* XCRemoteSwiftPackageReference "MASShortcut" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/shpakovski/MASShortcut";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		967A6B7B2C9057E200C3DDEB /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Legacy";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.0.2;
@@ -1694,11 +1688,6 @@
 			package = 964198B42729A6BA0001AB97 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
 		};
-		964198BB2729A75B0001AB97 /* MASShortcut */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 964198BA2729A75A0001AB97 /* XCRemoteSwiftPackageReference "MASShortcut" */;
-			productName = MASShortcut;
-		};
 		964198BF2729A7E30001AB97 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9630C4222729A05E009E8735 /* XCRemoteSwiftPackageReference "Alamofire" */;
@@ -1723,11 +1712,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9630C4262729A0EA009E8735 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		967A6B7C2C9057E200C3DDEB /* LaunchAtLogin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 967A6B7B2C9057E200C3DDEB /* XCRemoteSwiftPackageReference "LaunchAtLogin-Legacy" */;
-			productName = LaunchAtLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
