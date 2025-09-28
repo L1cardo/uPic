@@ -1,0 +1,462 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5PO-nX-1ts.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload via Extension\"; ObjectID = \"5PO-nX-1ts\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload via Extension"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过扩展上传"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通過擴展上傳"
+          }
+        }
+      }
+    },
+    "a6A-gm-fbk.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"We need\"; ObjectID = \"a6A-gm-fbk\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们需要"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們需要"
+          }
+        }
+      }
+    },
+    "aw5-Tv-dJb.title" : {
+      "comment" : "Class = \"NSWindow\"; title = \"Window\"; ObjectID = \"aw5-Tv-dJb\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Window"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Window"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Window"
+          }
+        }
+      }
+    },
+    "dfW-Tj-Gog.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Drag to Upload\"; ObjectID = \"dfW-Tj-Gog\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag to Upload"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖拽上传"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖拽上傳"
+          }
+        }
+      }
+    },
+    "EN9-1Z-Sqq.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Next\"; ObjectID = \"EN9-1Z-Sqq\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        }
+      }
+    },
+    "isq-Ch-gao.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"You can take a screenshot and upload.\\nPlease enable Setting -> Security & Privacy -> Privacy -> Screen Recording -> uPic\"; ObjectID = \"isq-Ch-gao\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can take a screenshot and upload.\nPlease enable Setting -> Security & Privacy -> Privacy -> Screen Recording -> uPic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您可以截图上传\n请开启 系统偏好设置 -> 安全性与隐私 -> 隐私 -> 屏幕录制 -> uPic"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您可以截圖上傳\n請開啟系統偏好設定 -> 安全性與隱私 -> 隱私 -> 荧幕錄製 -> uPic"
+          }
+        }
+      }
+    },
+    "J8p-JL-LaG.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"A powerful and simple file uploader tool.\\nUpload any files to any services you like.\"; ObjectID = \"J8p-JL-LaG\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A powerful and simple file uploader tool.\nUpload any files to any services you like."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一个强大且简单的上传工具\n将任何文件上传至任何服务"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一個强大且簡單的上傳工具\n將任何文件上傳至任何服務"
+          }
+        }
+      }
+    },
+    "KKR-Bg-AzW.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Limited by macOS, uPic can not access files outside of sandbox.\\nIf not granted permission, uPic may not be able to upload some files.\\nPlease be aware that uPic DO NOT collect any of your informations.\"; ObjectID = \"KKR-Bg-AzW\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limited by macOS, uPic can not access files outside of sandbox.\nIf not granted permission, uPic may not be able to upload some files.\nPlease be aware that uPic DO NOT collect any of your informations."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由于系统的安全限制，uPic 无法访问沙盒之外的文件。\n若不授权将无法使用右键上传、分享上传、命令行上传等功能。\n注：uPic 不会收集您的任何信息。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由於系統的安全限制，uPic 無法訪問沙箱之外的檔案。\n若不授權將無法使用右鍵上傳、分享上傳、命令列上傳等功能。\n注：uPic不會收集您的任何資訊。"
+          }
+        }
+      }
+    },
+    "lZV-cL-KsE.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Previous\"; ObjectID = \"lZV-cL-KsE\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上一步"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上一步"
+          }
+        }
+      }
+    },
+    "mld-Ub-NIp.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"uPic\"; ObjectID = \"mld-Ub-NIp\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uPic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uPic"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uPic"
+          }
+        }
+      }
+    },
+    "n2q-3P-rmS.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload Screenshot\"; ObjectID = \"n2q-3P-rmS\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload Screenshot"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "截图上传"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "截圖上傳"
+          }
+        }
+      }
+    },
+    "pk7-xU-bny.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Welcome to\"; ObjectID = \"pk7-xU-bny\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歡迎使用"
+          }
+        }
+      }
+    },
+    "RwC-HL-AhF.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Authorization\"; ObjectID = \"RwC-HL-AhF\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授权"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授權"
+          }
+        }
+      }
+    },
+    "U8F-dC-vKZ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Just drag the file to uPic icon on the status menu bar and then release your mouse.\\nIt is just this simple. \"; ObjectID = \"U8F-dC-vKZ\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just drag the file to uPic icon on the status menu bar and then release your mouse.\nIt is just this simple. "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将文件拖拽至 uPic 菜单栏图标然后松开鼠标\n就是这么简单"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將檔案拖拽至uPic功能表列圖標然後鬆開滑鼠\n就是這麼簡單"
+          }
+        }
+      }
+    },
+    "ve2-Sd-1j7.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"GitHub, Imgur, SM.MS, Qiniu KODO, Upyun USS, Aliyun OSS, Tencent Cloud COS, Gitee, Amazon S3, Baidu Cloud BOS, Lsky Pro\"; ObjectID = \"ve2-Sd-1j7\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub, Imgur, SM.MS, Qiniu KODO, Upyun USS, Aliyun OSS, Tencent Cloud COS, Gitee, Amazon S3, Baidu Cloud BOS, Lsky Pro"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub, Imgur, SM.MS, 七牛 KODO, 又拍云 USS, 阿里云 OSS, 腾讯云 COS, Gitee, Amazon S3, 百度云 BOS, Lsky Pro"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub, Imgur, SM.MS, 七牛 KODO, 又拍云 USS, 阿里云 OSS, 腾讯云 COS, Gitee, Amazon S3, 百度云 BOS, Lsky Pro"
+          }
+        }
+      }
+    },
+    "vGP-mK-Tjk.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Upload via Script\"; ObjectID = \"vGP-mK-Tjk\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload via Script"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过命令上传"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通過命令上傳"
+          }
+        }
+      }
+    },
+    "X47-xi-iV3.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Multiple Services\"; ObjectID = \"X47-xi-iV3\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Multiple Services"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "多个服务"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "多個服務"
+          }
+        }
+      }
+    },
+    "xlO-Fz-Nxq.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Click share button and select \\\"Upload via uPic\\\".\\nor\\nRight click on the file and select \\\"Upload via uPic\\\".\"; ObjectID = \"xlO-Fz-Nxq\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Click share button and select \"Upload via uPic\".\nor\nRight click on the file and select \"Upload via uPic\"."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击分享按钮并选择 \"使用 uPic 上传\"\n或\n在文件上右键并选择 \"使用 uPic 上传\""
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點擊分享按鈕並選擇 \"使用uPic上傳\"\n或\n在檔案上右鍵並選擇 \"使用uPic上傳\""
+          }
+        }
+      }
+    },
+    "xz2-3l-Jef.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"You can upload any files using terminal srcipt or Apple Script.\\nCheck tutorial for more info.\"; ObjectID = \"xz2-3l-Jef\";",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can upload any files using terminal srcipt or Apple Script.\nCheck tutorial for more info."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您可以使用命令行或者Apple Script上传任何文件\n查看教程以获取更多信息"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您可以使用命令行或者Apple Script上傳任何文件\n查看教程以獲取更多信息"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
