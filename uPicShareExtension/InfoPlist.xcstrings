@@ -4,10 +4,52 @@
     "CFBundleDisplayName" : {
       "comment" : "InfoPlist.strings\n  uPic\n\n  Created by Licardo on 2021/1/12.\n  Copyright © 2021 Svend Jin. All rights reserved.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit uPic hochladen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upload via uPic"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subir con uPic"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger avec uPic"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carica con uPic"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uPic でアップロード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uPic 으로 업로드"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузить через uPic"
           }
         },
         "zh-Hans" : {
@@ -19,7 +61,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "uPic Share Extension"
+            "value" : "使用 uPic 上傳"
           }
         }
       }
@@ -30,11 +72,12 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "uPicShareExtension"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "NSHumanReadableCopyright" : {
       "comment" : "Copyright (human-readable)",
@@ -42,11 +85,12 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Copyright © 2021 Svend Jin. All rights reserved."
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     }
   },
   "version" : "1.1"
