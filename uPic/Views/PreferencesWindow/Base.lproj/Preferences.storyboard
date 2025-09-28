@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24127" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="oOf-8k-ODW">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="oOf-8k-ODW">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24127"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24128"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -207,7 +207,7 @@
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="9ud-I5-Kam" customClass="MASShortcutView">
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="9ud-I5-Kam" customClass="NSSearchField">
                                                 <rect key="frame" x="158" y="2" width="125" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="19" id="GtH-Ev-Wnx"/>
@@ -237,7 +237,7 @@
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="TL3-ol-bGi" customClass="MASShortcutView">
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="TL3-ol-bGi" customClass="NSSearchField">
                                                 <rect key="frame" x="178" y="2" width="125" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="19" id="Zoj-dp-wDC"/>
@@ -267,7 +267,7 @@
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="WBc-IR-x3y" customClass="MASShortcutView">
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="WBc-IR-x3y" customClass="NSSearchField">
                                                 <rect key="frame" x="158" y="2" width="125" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="19" id="kj3-8F-ToM"/>
@@ -1194,23 +1194,23 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFc-2u-BgZ">
-                                            <rect key="frame" x="5" y="5" width="424" height="256"/>
+                                            <rect key="frame" x="5" y="3" width="424" height="256"/>
                                             <clipView key="contentView" id="DcA-Kj-FKb">
-                                                <rect key="frame" x="0.0" y="0.0" width="424" height="256"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="407" height="239"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <view fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hh8-yt-xyd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="409" height="241"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="392" height="224"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     </view>
                                                 </subviews>
                                             </clipView>
                                             <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="No7-94-RGW">
-                                                <rect key="frame" x="0.0" y="239" width="424" height="17"/>
+                                                <rect key="frame" x="0.0" y="239" width="407" height="17"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                             <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="qFH-NW-ynh">
-                                                <rect key="frame" x="407" y="0.0" width="17" height="256"/>
+                                                <rect key="frame" x="407" y="0.0" width="17" height="239"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                         </scrollView>

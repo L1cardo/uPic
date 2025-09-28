@@ -11,16 +11,16 @@ import CryptoSwift
 
 extension Data {
     
-    func toBytes() -> Array<UInt8> {
-        return self.bytes
-    }
+//    func toBytes() -> Array<UInt8> {
+//        return Array(self.bytes)
+//    }
     
     func toMd5() -> String {
         return self.md5().toHexString()
     }
     
     func toBase64() -> String {
-        return self.bytes.toBase64()
+        return self.base64EncodedString()
     }
     
     func toSha1() -> String {

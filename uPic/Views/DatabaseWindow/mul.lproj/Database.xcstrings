@@ -3,11 +3,11 @@
   "strings" : {
     "1Wp-tE-KGb.label" : {
       "comment" : "Class = \"NSToolbarItem\"; label = \"Delete All\"; ObjectID = \"1Wp-tE-KGb\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Delete All"
           }
         },
@@ -27,11 +27,11 @@
     },
     "1Wp-tE-KGb.paletteLabel" : {
       "comment" : "Class = \"NSToolbarItem\"; paletteLabel = \"Delete All\"; ObjectID = \"1Wp-tE-KGb\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Delete All"
           }
         },
@@ -51,11 +51,11 @@
     },
     "A25-IL-lsb.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Name\"; ObjectID = \"A25-IL-lsb\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Name"
           }
         },
@@ -75,7 +75,7 @@
     },
     "Aux-L1-4gC.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"Aux-L1-4gC\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -99,7 +99,7 @@
     },
     "bie-am-oZu.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"bie-am-oZu\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -123,7 +123,7 @@
     },
     "Bmb-UQ-bf6.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"Bmb-UQ-bf6\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -147,11 +147,11 @@
     },
     "CeV-29-0Xb.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"URL\"; ObjectID = \"CeV-29-0Xb\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "URL"
           }
         },
@@ -171,11 +171,11 @@
     },
     "cIr-0p-1ah.label" : {
       "comment" : "Class = \"NSToolbarItem\"; label = \"Refresh\"; ObjectID = \"cIr-0p-1ah\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Refresh"
           }
         },
@@ -195,11 +195,11 @@
     },
     "cIr-0p-1ah.paletteLabel" : {
       "comment" : "Class = \"NSToolbarItem\"; paletteLabel = \"Refresh\"; ObjectID = \"cIr-0p-1ah\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Refresh"
           }
         },
@@ -219,11 +219,11 @@
     },
     "DKQ-Ar-A7t.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Size\"; ObjectID = \"DKQ-Ar-A7t\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Size"
           }
         },
@@ -243,7 +243,7 @@
     },
     "e0t-kU-Jo8.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"e0t-kU-Jo8\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -267,7 +267,7 @@
     },
     "gff-B2-sFV.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"gff-B2-sFV\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -291,11 +291,11 @@
     },
     "Mwg-rj-Qgg.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"URL\"; ObjectID = \"Mwg-rj-Qgg\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "URL"
           }
         },
@@ -315,11 +315,11 @@
     },
     "nOC-jD-wpP.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"1\"; ObjectID = \"nOC-jD-wpP\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "1"
           }
         },
@@ -339,11 +339,11 @@
     },
     "nzt-ZE-Al0.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Name\"; ObjectID = \"nzt-ZE-Al0\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Name"
           }
         },
@@ -363,11 +363,11 @@
     },
     "Oop-Sb-42w.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Time\"; ObjectID = \"Oop-Sb-42w\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Time"
           }
         },
@@ -387,11 +387,11 @@
     },
     "PuM-Cu-8cO.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Review\"; ObjectID = \"PuM-Cu-8cO\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Review"
           }
         },
@@ -411,11 +411,11 @@
     },
     "uKn-q2-bBe.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Time\"; ObjectID = \"uKn-q2-bBe\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Time"
           }
         },
@@ -435,11 +435,11 @@
     },
     "Wbb-7n-akY.headerCell.title" : {
       "comment" : "Class = \"NSTableColumn\"; headerCell.title = \"Host\"; ObjectID = \"Wbb-7n-akY\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Host"
           }
         },
@@ -459,7 +459,7 @@
     },
     "x8P-wG-KE1.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"x8P-wG-KE1\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -483,11 +483,11 @@
     },
     "xFO-bI-gPs.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Size\"; ObjectID = \"xFO-bI-gPs\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Size"
           }
         },
@@ -507,7 +507,7 @@
     },
     "xZb-4G-2d6.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"xZb-4G-2d6\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -531,11 +531,11 @@
     },
     "Zhb-aV-Ibc.label" : {
       "comment" : "Class = \"NSToolbarItem\"; label = \"Copy\"; ObjectID = \"Zhb-aV-Ibc\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Copy"
           }
         },
@@ -555,11 +555,11 @@
     },
     "Zhb-aV-Ibc.paletteLabel" : {
       "comment" : "Class = \"NSToolbarItem\"; paletteLabel = \"Copy\"; ObjectID = \"Zhb-aV-Ibc\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Copy"
           }
         },
@@ -579,11 +579,11 @@
     },
     "zqs-gy-XY6.title" : {
       "comment" : "Class = \"NSWindow\"; title = \"uPic Database\"; ObjectID = \"zqs-gy-XY6\";",
-      "extractionState" : "migrated",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "uPic Database"
           }
         },

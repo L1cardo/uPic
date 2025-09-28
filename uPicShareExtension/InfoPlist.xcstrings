@@ -3,7 +3,6 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "comment" : "InfoPlist.strings\n  uPic\n\n  Created by Licardo on 2021/1/12.\n  Copyright © 2021 Svend Jin. All rights reserved.",
-      "extractionState" : "migrated",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -21,6 +20,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "uPic Share Extension"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "uPicShareExtension"
+          }
+        }
+      }
+    },
+    "NSHumanReadableCopyright" : {
+      "comment" : "Copyright (human-readable)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copyright © 2021 Svend Jin. All rights reserved."
           }
         }
       }

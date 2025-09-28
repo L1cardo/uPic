@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     " (Longshot)" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -25,7 +25,7 @@
       }
     },
     " (System)" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -48,7 +48,7 @@
       }
     },
     "(optional),When filled, URL = domain + URL path value" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -71,7 +71,7 @@
       }
     },
     "⚠️ Note that this will clear your uPic database" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -94,7 +94,7 @@
       }
     },
     "⚠️ Note that this will reset all user preferences" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -117,7 +117,7 @@
       }
     },
     "⚠️ overwrite" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -140,7 +140,7 @@
       }
     },
     "⚠️ Please choose import method, merge or overwrite?" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -163,7 +163,7 @@
       }
     },
     "Access Key" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -186,7 +186,7 @@
       }
     },
     "Anonymous" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -209,7 +209,7 @@
       }
     },
     "API URL" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -232,7 +232,7 @@
       }
     },
     "App is already running" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -255,7 +255,7 @@
       }
     },
     "APP Name" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -278,7 +278,7 @@
       }
     },
     "Authorize" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -301,7 +301,7 @@
       }
     },
     "Authorized" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -324,7 +324,7 @@
       }
     },
     "Body Data" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -347,7 +347,7 @@
       }
     },
     "Bodys" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -370,7 +370,7 @@
       }
     },
     "Branch" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -393,7 +393,7 @@
       }
     },
     "Bucket" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -416,7 +416,7 @@
       }
     },
     "Can be empty, there is a default domain" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -439,7 +439,7 @@
       }
     },
     "Cancel" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -462,7 +462,7 @@
       }
     },
     "Client ID" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -485,7 +485,7 @@
       }
     },
     "closing in %@ seconds..." : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -508,7 +508,7 @@
       }
     },
     "Compress images before uploading" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -532,7 +532,7 @@
     },
     "configuration export error!" : {
       "comment" : "导出图床配置失败内容2",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -555,7 +555,7 @@
       }
     },
     "Continue" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -578,7 +578,7 @@
       }
     },
     "Continuing will lose unsaved data. Do you want to continue?" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -601,7 +601,7 @@
       }
     },
     "Cookie" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -624,7 +624,7 @@
       }
     },
     "Cookie Mode" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -647,7 +647,7 @@
       }
     },
     "Copy" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -670,7 +670,7 @@
       }
     },
     "Created Client ID" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -693,7 +693,7 @@
       }
     },
     "Customize" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -716,7 +716,7 @@
       }
     },
     "Did not get the file URL" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -739,7 +739,7 @@
       }
     },
     "Domain" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -762,7 +762,7 @@
       }
     },
     "domain:https://xxx.com" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -785,7 +785,7 @@
       }
     },
     "Email" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -808,7 +808,7 @@
       }
     },
     "Endpoint" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -831,7 +831,7 @@
       }
     },
     "Example:" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -855,7 +855,7 @@
     },
     "Export failed" : {
       "comment" : "导出图床配置失败标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -878,7 +878,7 @@
       }
     },
     "Failed to process files" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -901,7 +901,7 @@
       }
     },
     "File Field" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -925,7 +925,7 @@
     },
     "File format not supported!" : {
       "comment" : "文件格式不支持",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -949,7 +949,7 @@
     },
     "File is over the size limit! Limit:" : {
       "comment" : "文件大小超过限制",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -973,7 +973,7 @@
     },
     "Full Disk Access" : {
       "comment" : "全盘权限授权 Alert 提示",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -996,7 +996,7 @@
       }
     },
     "Full Disk Access Message" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1020,7 +1020,7 @@
     },
     "Get API Token" : {
       "comment" : "host field placeholder",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1043,7 +1043,7 @@
       }
     },
     "Get Client ID" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1066,7 +1066,7 @@
       }
     },
     "Header Data" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1089,7 +1089,7 @@
       }
     },
     "Headers" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1112,7 +1112,7 @@
       }
     },
     "Host" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1135,7 +1135,7 @@
       }
     },
     "host.type.aliyun_oss" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1158,7 +1158,7 @@
       }
     },
     "host.type.amazon_s3" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1181,7 +1181,7 @@
       }
     },
     "host.type.baidu_bos" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1205,7 +1205,7 @@
     },
     "host.type.custom" : {
       "comment" : "host type",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1228,7 +1228,7 @@
       }
     },
     "host.type.gitee" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1251,7 +1251,7 @@
       }
     },
     "host.type.github" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1274,7 +1274,7 @@
       }
     },
     "host.type.imgur" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1297,7 +1297,7 @@
       }
     },
     "host.type.lsky_pro" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1320,7 +1320,7 @@
       }
     },
     "host.type.minio" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1343,7 +1343,7 @@
       }
     },
     "host.type.qiniu_kodo" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1366,7 +1366,7 @@
       }
     },
     "host.type.s3" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1389,7 +1389,7 @@
       }
     },
     "host.type.smms" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1412,7 +1412,7 @@
       }
     },
     "host.type.tencent_cos" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1435,7 +1435,7 @@
       }
     },
     "host.type.upyun_uss" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1458,7 +1458,7 @@
       }
     },
     "host.type.weibo" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1482,7 +1482,7 @@
     },
     "Import failed" : {
       "comment" : "导入图床配置失败标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1505,7 +1505,7 @@
       }
     },
     "Import host configuration" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1529,7 +1529,7 @@
     },
     "Invalid file path" : {
       "comment" : "cli error msg",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1553,7 +1553,7 @@
     },
     "items" : {
       "comment" : "database",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1576,7 +1576,7 @@
       }
     },
     "Just the repo name, not the repo URL" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1599,7 +1599,7 @@
       }
     },
     "Later" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1622,7 +1622,7 @@
       }
     },
     "Launching uPic..." : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1645,7 +1645,7 @@
       }
     },
     "merge" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1668,7 +1668,7 @@
       }
     },
     "Method" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1691,7 +1691,7 @@
       }
     },
     "Never created Client ID" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1715,7 +1715,7 @@
     },
     "Next" : {
       "comment" : "欢迎界面",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1739,7 +1739,7 @@
     },
     "No access to file!" : {
       "comment" : "无权访问该文件",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1763,7 +1763,7 @@
     },
     "No exportable hosts!" : {
       "comment" : "导出图床配置失败内容",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1786,7 +1786,7 @@
       }
     },
     "No files found from ShareExtension" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1810,7 +1810,7 @@
     },
     "No logs!" : {
       "comment" : "没有日志",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1833,7 +1833,7 @@
       }
     },
     "Not Authorized" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1856,7 +1856,7 @@
       }
     },
     "Off" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1880,7 +1880,7 @@
     },
     "OK" : {
       "comment" : "Localizable.strings\n uPic\n \n Created by Svend Jin on 2019/6/8.\n Copyright © 2019 Svend Jin. All rights reserved.",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1903,7 +1903,7 @@
       }
     },
     "On" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1926,7 +1926,7 @@
       }
     },
     "Operator" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1949,7 +1949,7 @@
       }
     },
     "Operator name" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1972,7 +1972,7 @@
       }
     },
     "Operator password" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1995,7 +1995,7 @@
       }
     },
     "Other fields" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2018,7 +2018,7 @@
       }
     },
     "Output format" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2041,7 +2041,7 @@
       }
     },
     "Output format encode" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2064,7 +2064,7 @@
       }
     },
     "Output url format" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2087,7 +2087,7 @@
       }
     },
     "Owner" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2110,7 +2110,7 @@
       }
     },
     "Password" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2134,7 +2134,7 @@
     },
     "Path and URL of the file to upload" : {
       "comment" : "cli",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2157,7 +2157,7 @@
       }
     },
     "Pic Quality" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2180,7 +2180,7 @@
       }
     },
     "Please try again" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2203,7 +2203,7 @@
       }
     },
     "Please wait..." : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2226,7 +2226,7 @@
       }
     },
     "Print this help message" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2249,7 +2249,7 @@
       }
     },
     "Processing files..." : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2273,7 +2273,7 @@
     },
     "Region" : {
       "comment" : "host -- start",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2296,7 +2296,7 @@
       }
     },
     "Repo" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2319,7 +2319,7 @@
       }
     },
     "Reset User Preferences?" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2342,7 +2342,7 @@
       }
     },
     "Right click to cancel the current upload task" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2365,7 +2365,7 @@
       }
     },
     "Save Key" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2388,7 +2388,7 @@
       }
     },
     "Save Key Tips" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2411,7 +2411,7 @@
       }
     },
     "Secret Id" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2434,7 +2434,7 @@
       }
     },
     "Secret Key" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2457,7 +2457,7 @@
       }
     },
     "Success" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2481,7 +2481,7 @@
     },
     "Successfully" : {
       "comment" : "成功通知标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2504,7 +2504,7 @@
       }
     },
     "Suffix Tips" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2528,7 +2528,7 @@
     },
     "The configuration file is exported successfully, Do not modify the file contents!" : {
       "comment" : "导出图床配置成功内容",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2552,7 +2552,7 @@
     },
     "The configuration file is invalid, please check!" : {
       "comment" : "导入图床配置失败内容",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2576,7 +2576,7 @@
     },
     "The configuration has been imported, please check and use!" : {
       "comment" : "导入图床配置成功内容",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2600,7 +2600,7 @@
     },
     "The current upload task is not complete" : {
       "comment" : "当前上传任务还未完成通知副标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2624,7 +2624,7 @@
     },
     "The export was successful, plaese do not send the log to others!" : {
       "comment" : "导出日志成功内容",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2648,7 +2648,7 @@
     },
     "The file does not exist or has been deleted!" : {
       "comment" : "文件不存在或已被删除",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2672,7 +2672,7 @@
     },
     "The file will be uploaded anonymously to" : {
       "comment" : "匿名上传",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2695,7 +2695,7 @@
       }
     },
     "The path to the URL field in Response JSON" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2719,7 +2719,7 @@
     },
     "There is a problem with the map bed configuration, please check!" : {
       "comment" : "图床配置存在问题, 请检查",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2742,7 +2742,7 @@
       }
     },
     "Token" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2765,7 +2765,7 @@
       }
     },
     "Total paths count" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2788,7 +2788,7 @@
       }
     },
     "Turn off error message output" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2812,7 +2812,7 @@
     },
     "Unsupported file type" : {
       "comment" : "share extension",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2836,7 +2836,7 @@
     },
     "Upload failed" : {
       "comment" : "上传失败通知标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2860,7 +2860,7 @@
     },
     "Upload failed, please check the configuration!" : {
       "comment" : "eroor message",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2884,7 +2884,7 @@
     },
     "Upload from screenshot" : {
       "comment" : "状态栏菜单",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2907,7 +2907,7 @@
       }
     },
     "Upload selected files via uPic" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2930,7 +2930,7 @@
       }
     },
     "Upload via uPic" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2954,7 +2954,7 @@
     },
     "Uploaded successfully" : {
       "comment" : "上传成功通知标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2978,7 +2978,7 @@
     },
     "URL has been copied to the clipboard, paste and use it!" : {
       "comment" : "上传成功通知副标题",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3001,7 +3001,7 @@
       }
     },
     "URL Path" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3024,7 +3024,7 @@
       }
     },
     "URL suffix" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3047,7 +3047,7 @@
       }
     },
     "Use Base64" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3070,7 +3070,7 @@
       }
     },
     "Username" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3093,7 +3093,7 @@
       }
     },
     "Validate" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3116,7 +3116,7 @@
       }
     },
     "Version" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3139,7 +3139,7 @@
       }
     },
     "Warning" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3162,7 +3162,7 @@
       }
     },
     "weibo.quality.large" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3185,7 +3185,7 @@
       }
     },
     "weibo.quality.mw690" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3209,7 +3209,7 @@
     },
     "weibo.quality.thumbnail" : {
       "comment" : "weibo quality",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3232,7 +3232,7 @@
       }
     },
     "Yes" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {

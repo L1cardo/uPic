@@ -3,7 +3,6 @@
   "strings" : {
     "8OE-MZ-BV3.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"请打开系统偏好设置，“点击安全性与隐私”\"; ObjectID = \"8OE-MZ-BV3\"; Note = \"step1\";",
-      "extractionState" : "migrated",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -27,7 +26,7 @@
     },
     "IIp-aX-hKg.title" : {
       "comment" : "Class = \"NSWindow\"; title = \"Window\"; ObjectID = \"IIp-aX-hKg\";",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -50,12 +49,12 @@
       }
     },
     "MZV-nV-okO.title" : {
-      "comment" : "Class = \"NSButton\"; title = \"Open Security & Privacy\"; ObjectID = \"MZV-nV-okO\";",
-      "extractionState" : "migrated",
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open Security & Privacy\"; ObjectID = \"MZV-nV-okO\";",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Open Security & Privacy"
           }
         },
@@ -75,7 +74,6 @@
     },
     "qqL-jK-k4X.title" : {
       "comment" : "Class = \"NSTextFieldCell\"; title = \"授予 uPic “屏幕录制”权限\"; ObjectID = \"qqL-jK-k4X\";",
-      "extractionState" : "migrated",
       "localizations" : {
         "en" : {
           "stringUnit" : {

@@ -11,8 +11,7 @@ import SwiftyJSON
 import Alamofire
 import AppKit
 import ScriptingBridge
-import MASShortcut
-import LaunchAtLogin
+import KeyboardShortcuts
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -55,22 +54,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             return
         }
         
-        // Register events and status bar menus only in non-command line mode
-        
-        LaunchAtLogin.migrateIfNeeded()
-        
         // Set status bar icon and progress icon
         setupStatusBar()
         
         // Request notification permission
         NotificationExt.requestAuthorization()
-
-        bindShortcuts()
         
         Logger.shared.verbose("Listening scheme")
         // Add URL scheme listening
         NSAppleEventManager.shared().setEventHandler(self, andSelector:#selector(handleGetURLEvent(event:withReplyEvent:)), forEventClass: AEEventClass(kInternetEventClass), andEventID: AEEventID(kAEGetURL))
-        
     }
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -210,14 +202,11 @@ extension AppDelegate {
                 self.indicator.isHidden = true
             }
         }
-        
     }
     
     func setUpdateProcess(percent: Double) {
         self.indicator.doubleValue = percent
     }
-    
-    
 }
 
 // MARK: - 上传方式选择
@@ -684,29 +673,3 @@ extension AppDelegate {
     }
 }
 
-
-// MARK: - Global shortcut
-extension AppDelegate {
-    
-    func bindShortcuts() {
-        Logger.shared.verbose("Bind shortcuts")
-        MASShortcutBinder.shared()?.bindShortcut(withDefaultsKey: Constants.Key.selectFileShortcut) {
-            self.selectFile()
-        }
-        
-        MASShortcutBinder.shared()?.bindShortcut(withDefaultsKey: Constants.Key.pasteboardShortcut) {
-            self.uploadByPasteboard()
-        }
-        
-        MASShortcutBinder.shared()?.bindShortcut(withDefaultsKey: Constants.Key.screenshotShortcut) {
-            self.screenshotAndUpload()
-        }
-    }
-    
-    func unbindShortcuts() {
-        Logger.shared.verbose("Unbind shortcuts")
-        MASShortcutBinder.shared()?.breakBinding(withDefaultsKey: Constants.Key.selectFileShortcut)
-        MASShortcutBinder.shared()?.breakBinding(withDefaultsKey: Constants.Key.pasteboardShortcut)
-        MASShortcutBinder.shared()?.breakBinding(withDefaultsKey: Constants.Key.screenshotShortcut)
-    }
-}

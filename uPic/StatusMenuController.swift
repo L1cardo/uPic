@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import MASShortcut
+import KeyboardShortcuts
 
 class StatusMenuController: NSObject, NSMenuDelegate {
 
@@ -35,20 +35,15 @@ class StatusMenuController: NSObject, NSMenuDelegate {
         refreshOutputFormatEncoded()
         resetCompressFactor()
         addObserver()
+        setupKeyboardShortcuts()
     }
     
     func menuWillOpen(_ menu: NSMenu) {
-        // Set shortcut key for upload menu
-        setupItemShortcut(uploadFromSelectFileMenuItem, Constants.Key.selectFileShortcut)
-        setupItemShortcut(uploadFromPasteboardMenuItem, Constants.Key.pasteboardShortcut)
-        setupItemShortcut(uploadFromScreenshotMenuItem, Constants.Key.screenshotShortcut)
-        
-        (NSApplication.shared.delegate as? AppDelegate)?.unbindShortcuts()
-        
         refreshUploadFromScreenshotMenuItemTitle()
         refreshOutputFormat()
         refreshOutputFormatEncoded()
         resetCompressFactor()
+        bindKeyboadShortcuts()
         
         // 正在上传
         if (NSApplication.shared.delegate as? AppDelegate)?.uploding ?? false {
@@ -61,7 +56,6 @@ class StatusMenuController: NSObject, NSMenuDelegate {
     }
     
     func menuDidClose(_ menu: NSMenu) {
-        (NSApplication.shared.delegate as? AppDelegate)?.bindShortcuts()
     }
     
     // cancel upload
@@ -73,17 +67,17 @@ class StatusMenuController: NSObject, NSMenuDelegate {
     
     // select files
     @IBAction func selectFileMenuItemClicked(_ sender: NSMenuItem) {
-        (NSApplication.shared.delegate as? AppDelegate)?.selectFile()
+        uploadFromSelectFile()
     }
 
     // upload pasteboard files
     @IBAction func uploadPasteboardMenuItemClicked(_ sender: NSMenuItem) {
-        (NSApplication.shared.delegate as? AppDelegate)?.uploadByPasteboard()
+        uploadFromPasteboard()
     }
 
     // upload by screenshot
     @IBAction func screenshotMenuItemClicked(_ sender: NSMenuItem) {
-        (NSApplication.shared.delegate as? AppDelegate)?.screenshotAndUpload()
+        uploadFromScreenshot()
     }
 
     // open database window
@@ -253,6 +247,31 @@ class StatusMenuController: NSObject, NSMenuDelegate {
         }
         
         uploadFromScreenshotMenuItem.title = title
+    }
+    
+    @MainActor
+    func bindKeyboadShortcuts() {
+        uploadFromSelectFileMenuItem.setShortcut(for: .selectFileShortcut)
+        uploadFromPasteboardMenuItem.setShortcut(for: .pasteboardShortcut)
+        uploadFromScreenshotMenuItem.setShortcut(for: .screenshotShortcut)
+    }
+    
+    func setupKeyboardShortcuts() {
+        KeyboardShortcuts.onKeyUp(for: .selectFileShortcut, action: uploadFromSelectFile)
+        KeyboardShortcuts.onKeyUp(for: .pasteboardShortcut, action: uploadFromPasteboard)
+        KeyboardShortcuts.onKeyUp(for: .screenshotShortcut, action: uploadFromScreenshot)
+    }
+    
+    func uploadFromSelectFile() {
+        (NSApplication.shared.delegate as? AppDelegate)?.selectFile()
+    }
+    
+    func uploadFromPasteboard() {
+        (NSApplication.shared.delegate as? AppDelegate)?.uploadByPasteboard()
+    }
+    
+    func uploadFromScreenshot() {
+        (NSApplication.shared.delegate as? AppDelegate)?.screenshotAndUpload()
     }
     
     // refresh current host to select
@@ -437,26 +456,5 @@ class StatusMenuController: NSObject, NSMenuDelegate {
     func removeObserver() {
         ConfigNotifier.removeObserver(observer: self, notification: .changeHostItems)
         ConfigNotifier.removeObserver(observer: self, notification: .changeHistoryList)
-    }
-}
-
-// MARK: - Shortcut key configuration
-extension StatusMenuController {
-    
-    
-    /// Read the global shortcut key configuration in the mashshortcut to the menu bar option
-    /// - Parameters:
-    ///   - item: Menu item
-    ///   - key: MASShortcut key
-    func setupItemShortcut(_ item: NSMenuItem, _ key: String) {
-        
-        guard let shortcut = MASShortcutBinder.shared().value(forKey: key) as? MASShortcut else {
-            item.keyEquivalent = ""
-            item.keyEquivalentModifierMask = []
-            return
-        }
-        
-        item.keyEquivalent = shortcut.keyCodeStringForKeyEquivalent ?? ""
-        item.keyEquivalentModifierMask = shortcut.modifierFlags
     }
 }

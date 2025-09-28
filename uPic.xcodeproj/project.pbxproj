@@ -160,6 +160,10 @@
 		96F633EE25AEBE5E005514EB /* DatabaseWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F633ED25AEBE5E005514EB /* DatabaseWindowController.swift */; };
 		96F633F625AEC3C7005514EB /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F633F525AEC3C6005514EB /* DatabaseViewController.swift */; };
 		96F633FF25AF008F005514EB /* Database.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6340125AF008F005514EB /* Database.storyboard */; };
+		96FD4E102E89135B001D2E32 /* libminipng in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E0F2E89135B001D2E32 /* libminipng */; };
+		96FD4E122E89139F001D2E32 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E112E89139F001D2E32 /* KeyboardShortcuts */; };
+		96FD4E142E89147A001D2E32 /* KeyboardShortcuts+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD4E132E89147A001D2E32 /* KeyboardShortcuts+Name.swift */; };
+		96FD4E162E891909001D2E32 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E152E891909001D2E32 /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -349,6 +353,7 @@
 		96F633ED25AEBE5E005514EB /* DatabaseWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseWindowController.swift; sourceTree = "<group>"; };
 		96F633F525AEC3C6005514EB /* DatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
 		96F6340025AF008F005514EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Database.storyboard; sourceTree = "<group>"; };
+		96FD4E132E89147A001D2E32 /* KeyboardShortcuts+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardShortcuts+Name.swift"; sourceTree = "<group>"; };
 		A116EF79D38D9092D34EFCF5 /* Pods_uPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -358,7 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16725B262E7F02B100A8FB12 /* LCPermissionsKit in Frameworks */,
+				96FD4E122E89139F001D2E32 /* KeyboardShortcuts in Frameworks */,
 				1649393D285E2620007278DA /* CocoaLumberjack in Frameworks */,
+				96FD4E162E891909001D2E32 /* LaunchAtLogin in Frameworks */,
 				1649394D285F1C45007278DA /* Zip in Frameworks */,
 				1649393F285E2620007278DA /* CocoaLumberjackSwift in Frameworks */,
 				964198B62729A6BA0001AB97 /* SwiftyJSON in Frameworks */,
@@ -369,6 +376,7 @@
 				964198C22729A7E90001AB97 /* CryptoSwift in Frameworks */,
 				9610BE8E2CCE84A300FD9F77 /* WCDBSwiftDynamic in Frameworks */,
 				964198C82729A7F60001AB97 /* SnapKit in Frameworks */,
+				96FD4E102E89135B001D2E32 /* libminipng in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +580,7 @@
 				4B6C62F923613AEF008E3735 /* NSImage+Extension.swift */,
 				4B2B3355236C3B6400C9F2CA /* NSView+Extension.swift */,
 				4B2B3353236BC5AB00C9F2CA /* NSButton+Extension.swift */,
+				96FD4E132E89147A001D2E32 /* KeyboardShortcuts+Name.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -829,11 +838,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16A6DC6422AA375800813706 /* Build configuration list for PBXNativeTarget "uPic" */;
 			buildPhases = (
-				AF16EB1F68345467E01767BE /* [CP] Check Pods Manifest.lock */,
 				16A6DC5022AA375700813706 /* Sources */,
 				16A6DC5122AA375700813706 /* Frameworks */,
 				16A6DC5222AA375700813706 /* Resources */,
-				964DA808272AF5630003304C /* Copy “Launch at Login Helper” */,
 				16F7467D22E994A300480A62 /* Embed Foundation Extensions */,
 				1613D88B25C98273009E348A /* Run Script */,
 				16181F3F2CCF432C0040D761 /* Embed Frameworks */,
@@ -857,6 +864,9 @@
 				1649394C285F1C45007278DA /* Zip */,
 				9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */,
 				16725B252E7F02B100A8FB12 /* LCPermissionsKit */,
+				96FD4E0F2E89135B001D2E32 /* libminipng */,
+				96FD4E112E89139F001D2E32 /* KeyboardShortcuts */,
+				96FD4E152E891909001D2E32 /* LaunchAtLogin */,
 			);
 			productName = uPic;
 			productReference = 16EC9A0222ABBBB4001B6C89 /* uPic.app */;
@@ -932,6 +942,7 @@
 				16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */,
 				962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
 				962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */,
 			);
 			productRefGroup = 16A6DC4B22AA375700813706;
 			projectDirPath = "";
@@ -993,47 +1004,6 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\n# python ${SRCROOT}/${TARGET_NAME}/Script/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}\n";
 		};
-		964DA808272AF5630003304C /* Copy “Launch at Login Helper” */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Copy “Launch at Login Helper”";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n\n";
-		};
-		AF16EB1F68345467E01767BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-uPic-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1080,6 +1050,7 @@
 				1646B80722C79346009271DF /* GiteeHostConfig.swift in Sources */,
 				4BC11BDC238CD8CD001641A6 /* HistoryThumbnailLabel.swift in Sources */,
 				16E3B57925B5342000D4234F /* OutputFormatModel.swift in Sources */,
+				96FD4E142E89147A001D2E32 /* KeyboardShortcuts+Name.swift in Sources */,
 				4B09F11423695F8D000208BD /* HistoryThumbnailContentView.swift in Sources */,
 				163632EF22B2749000805E7F /* NSTextFieldCell+VerticallyCentered.swift in Sources */,
 				4B2B3356236C3B6400C9F2CA /* NSView+Extension.swift in Sources */,
@@ -1386,11 +1357,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPicDebug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YBK29FJ8B6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1423,11 +1395,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPic.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YBK29FJ8B6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1456,11 +1429,12 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = uPicShareExtension/uPicShareExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YBK29FJ8B6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1487,11 +1461,12 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = uPicShareExtension/uPicShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YBK29FJ8B6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1567,7 +1542,7 @@
 			repositoryURL = "https://github.com/soto-project/soto.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.9.0;
+				minimumVersion = 6.6.0;
 			};
 		};
 		16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */ = {
@@ -1650,6 +1625,14 @@
 				minimumVersion = 5.0.2;
 			};
 		};
+		96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/L1cardo/libminipng";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1712,6 +1695,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9630C4262729A0EA009E8735 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		96FD4E0F2E89135B001D2E32 /* libminipng */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */;
+			productName = libminipng;
+		};
+		96FD4E112E89139F001D2E32 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		96FD4E152E891909001D2E32 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
