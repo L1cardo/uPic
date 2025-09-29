@@ -50,19 +50,14 @@ class ScreenUtil {
         NSWorkspace.shared.open(url)
     }
     
-    private static var groupName: String {
-        let infoDic = Bundle.main.infoDictionary!
-        return "\(infoDic["TeamIdentifierPrefix"]!)com.svend.uPic"
-    }
-    
     static func resetScreenshotApp() {
-        let defaults = UserDefaults.init(suiteName: groupName)
+        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
         defaults?.set(ScreenshotApp.system.rawValue, forKey: "uPic_ScreenshotApp")
         defaults?.synchronize()
     }
     
     static func getScreenshotApp() -> ScreenshotApp {
-        let defaults = UserDefaults.init(suiteName: groupName)
+        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
         guard let screenshotApp = defaults?.value(forKey: "uPic_ScreenshotApp") else {
             return .system
         }
@@ -70,7 +65,7 @@ class ScreenUtil {
     }
     
     static func setScreenshotApp(_ value: ScreenshotApp) {
-        let defaults = UserDefaults.init(suiteName: groupName)
+        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
         defaults?.set(value.rawValue, forKey: "uPic_ScreenshotApp")
         defaults?.synchronize()
     }

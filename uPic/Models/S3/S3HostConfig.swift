@@ -10,7 +10,7 @@ import Foundation
 import SwiftyJSON
 import SotoS3
 
-extension S3.ObjectCannedACL: CaseIterable {
+extension S3.ObjectCannedACL: @retroactive CaseIterable {
     public static var allCases: [S3.ObjectCannedACL] {
         return [.publicRead, .publicReadWrite, .private, .authenticatedRead, .awsExecRead, .bucketOwnerFullControl, .bucketOwnerRead]
     }

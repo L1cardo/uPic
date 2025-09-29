@@ -65,12 +65,14 @@ class ShareViewController: NSViewController {
             return
         }
         
+        let totalCount = itemProviders.count
+        
         for itemProvider in itemProviders {
             if itemProvider.hasItemConformingToTypeIdentifier("public.url") {
                 itemProvider.loadItem(forTypeIdentifier: "public.url", options: nil) { (data, error) in
                     defer {
                         processedCount += 1
-                        if processedCount == itemProviders.count {
+                        if processedCount == totalCount {
                             // 所有文件处理完成
                             if !sharedFileURLs.isEmpty {
                                 FinderUtil.saveSharedFiles(sharedFileURLs)

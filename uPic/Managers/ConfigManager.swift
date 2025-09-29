@@ -8,6 +8,7 @@
 
 import Foundation
 import Cocoa
+import UniformTypeIdentifiers
 
 public class ConfigManager {
     
@@ -18,9 +19,6 @@ public class ConfigManager {
     var historyList: [HistoryThumbnailModel]!
     
     public var firstUsage: BoolType {
-        #if DEBUG
-        return ._false
-        #endif
         if Defaults[.firstUsage] == nil {
             Defaults[.firstUsage] = BoolType._false.rawValue
             return ._true
@@ -28,6 +26,7 @@ public class ConfigManager {
             return ._false
         }
     }
+
     
     public func firstSetup() {
         Logger.shared.verbose("First Setup Config")
@@ -183,7 +182,7 @@ extension ConfigManager {
         openPanel.allowsMultipleSelection = false
         openPanel.canChooseDirectories = false
         openPanel.canCreateDirectories = false
-        openPanel.allowedFileTypes = ["json"]
+        openPanel.allowedContentTypes = [UTType.json]
         
         openPanel.begin { (result) -> Void in
             if result.rawValue == NSApplication.ModalResponse.OK.rawValue {
@@ -262,7 +261,7 @@ extension ConfigManager {
         savePanel.allowsOtherFileTypes = false
         savePanel.isExtensionHidden = true
         savePanel.canCreateDirectories = true
-        savePanel.allowedFileTypes = ["json"]
+        savePanel.allowedContentTypes = [UTType.json]
         
         savePanel.begin { (result) -> Void in
             if result.rawValue == NSApplication.ModalResponse.OK.rawValue {

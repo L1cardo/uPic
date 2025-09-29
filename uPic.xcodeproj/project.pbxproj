@@ -13,6 +13,9 @@
 		16068C7822AECB34004D39B7 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16068C7722AECB34004D39B7 /* PreferencesWindowController.swift */; };
 		16068C7C22AECD9F004D39B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16068C7B22AECD9F004D39B7 /* Constants.swift */; };
 		160CAA2522B1ED6F00D04FBD /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160CAA2422B1ED6F00D04FBD /* PreferenceKey.swift */; };
+		16152F962E897552003D0768 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16068C7B22AECD9F004D39B7 /* Constants.swift */; };
+		16152F9A2E8A21A5003D0768 /* libminipng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16152F972E8A20FE003D0768 /* libminipng.framework */; };
+		16152F9B2E8A21A5003D0768 /* libminipng.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16152F972E8A20FE003D0768 /* libminipng.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		16181F402CCF43310040D761 /* WCDBSwiftDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		161ABBDD23B1F1EB00805C5B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161ABBDC23B1F1EB00805C5B /* DBManager.swift */; };
 		161C3BE122C483380092114F /* CustomUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C3BE022C4831B0092114F /* CustomUploader.swift */; };
@@ -159,7 +162,6 @@
 		96F633EE25AEBE5E005514EB /* DatabaseWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F633ED25AEBE5E005514EB /* DatabaseWindowController.swift */; };
 		96F633F625AEC3C7005514EB /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F633F525AEC3C6005514EB /* DatabaseViewController.swift */; };
 		96F633FF25AF008F005514EB /* Database.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6340125AF008F005514EB /* Database.storyboard */; };
-		96FD4E102E89135B001D2E32 /* libminipng in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E0F2E89135B001D2E32 /* libminipng */; };
 		96FD4E122E89139F001D2E32 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E112E89139F001D2E32 /* KeyboardShortcuts */; };
 		96FD4E142E89147A001D2E32 /* KeyboardShortcuts+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD4E132E89147A001D2E32 /* KeyboardShortcuts+Name.swift */; };
 		96FD4E162E891909001D2E32 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 96FD4E152E891909001D2E32 /* LaunchAtLogin */; };
@@ -183,6 +185,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				16181F402CCF43310040D761 /* WCDBSwiftDynamic in Embed Frameworks */,
+				16152F9B2E8A21A5003D0768 /* libminipng.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +211,7 @@
 		16068C7B22AECD9F004D39B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		160CAA2422B1ED6F00D04FBD /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		1613D88625C9826B009E348A /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
+		16152F972E8A20FE003D0768 /* libminipng.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libminipng.framework; sourceTree = "<group>"; };
 		161ABBDC23B1F1EB00805C5B /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		161C3BE022C4831B0092114F /* CustomUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUploader.swift; sourceTree = "<group>"; };
 		161C3BE222C483560092114F /* CustomHostConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostConfig.swift; sourceTree = "<group>"; };
@@ -369,13 +373,13 @@
 				1649393F285E2620007278DA /* CocoaLumberjackSwift in Frameworks */,
 				964198B62729A6BA0001AB97 /* SwiftyJSON in Frameworks */,
 				964198C62729A7F00001AB97 /* Kingfisher in Frameworks */,
+				16152F9A2E8A21A5003D0768 /* libminipng.framework in Frameworks */,
 				964198C42729A7EC0001AB97 /* SwiftyXMLParser in Frameworks */,
 				964198C02729A7E30001AB97 /* Alamofire in Frameworks */,
 				16539DCF278AD8700035B9DF /* SotoS3 in Frameworks */,
 				964198C22729A7E90001AB97 /* CryptoSwift in Frameworks */,
 				9610BE8E2CCE84A300FD9F77 /* WCDBSwiftDynamic in Frameworks */,
 				964198C82729A7F60001AB97 /* SnapKit in Frameworks */,
-				96FD4E102E89135B001D2E32 /* libminipng in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,14 @@
 				1613D88625C9826B009E348A /* AutoGenStrings.py */,
 			);
 			path = Script;
+			sourceTree = "<group>";
+		};
+		16152F982E8A20FE003D0768 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				16152F972E8A20FE003D0768 /* libminipng.framework */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 		161C3BDF22C4830A0092114F /* Custom */ = {
@@ -636,6 +648,7 @@
 		16A6DC4B22AA375700813706 = {
 			isa = PBXGroup;
 			children = (
+				16152F982E8A20FE003D0768 /* libs */,
 				16A6DC5622AA375700813706 /* uPic */,
 				96B6C3EF25AD89F200B1A584 /* uPicShareExtension */,
 				F517F004DFA2ACE018535745 /* Frameworks */,
@@ -863,7 +876,6 @@
 				1649394C285F1C45007278DA /* Zip */,
 				9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */,
 				16725B252E7F02B100A8FB12 /* LCPermissionsKit */,
-				96FD4E0F2E89135B001D2E32 /* libminipng */,
 				96FD4E112E89139F001D2E32 /* KeyboardShortcuts */,
 				96FD4E152E891909001D2E32 /* LaunchAtLogin */,
 			);
@@ -948,7 +960,6 @@
 				16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */,
 				962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
 				962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
-				96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */,
 			);
 			productRefGroup = 16A6DC4B22AA375700813706;
 			projectDirPath = "";
@@ -1150,6 +1161,7 @@
 				96B6C42025AD934B00B1A584 /* String+Extension.swift in Sources */,
 				16CDDBCA2E82453300C6BF2D /* FinderUtil.swift in Sources */,
 				96B6C3F325AD89F200B1A584 /* ShareViewController.swift in Sources */,
+				16152F962E897552003D0768 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,17 +1374,22 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPicDebug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 31;
+				CURRENT_PROJECT_VERSION = 32;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/uPic/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1380,7 +1397,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13;
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1400,17 +1417,22 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPic.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 31;
+				CURRENT_PROJECT_VERSION = 32;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/uPic/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1418,7 +1440,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13;
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1434,12 +1456,12 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = uPicShareExtension/uPicShareExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 31;
+				CURRENT_PROJECT_VERSION = 32;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1451,7 +1473,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos.uPicShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1466,12 +1488,12 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = uPicShareExtension/uPicShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 31;
+				CURRENT_PROJECT_VERSION = 32;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -1483,7 +1505,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos.uPicShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1630,14 +1652,6 @@
 				minimumVersion = 5.0.2;
 			};
 		};
-		96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/L1cardo/libminipng";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1700,11 +1714,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9630C4262729A0EA009E8735 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		96FD4E0F2E89135B001D2E32 /* libminipng */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 96FD4E0E2E89135B001D2E32 /* XCRemoteSwiftPackageReference "libminipng" */;
-			productName = libminipng;
 		};
 		96FD4E112E89139F001D2E32 /* KeyboardShortcuts */ = {
 			isa = XCSwiftPackageProductDependency;

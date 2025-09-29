@@ -1,5 +1,5 @@
 {
-  "originHash" : "958054598ce59eac9e2e2b5dd6e90a7893b015e5870e6b8a3fcf293a436a3698",
+  "originHash" : "f7e3f41b1c9e33940a2441ec13f2c982e5ce20a8d243c9b59982e895c5399a28",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -80,15 +80,6 @@
       "state" : {
         "revision" : "4740b60bbd3b78300fc15e77cd39731e23a8eb8a",
         "version" : "1.0.2"
-      }
-    },
-    {
-      "identity" : "libminipng",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/L1cardo/libminipng",
-      "state" : {
-        "branch" : "master",
-        "revision" : "53b731f5ca8afbb966c5c9080ff393ffd5d55110"
       }
     },
     {
@@ -211,7 +202,7 @@
     {
       "identity" : "swift-log",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-log.git",
+      "location" : "https://github.com/apple/swift-log",
       "state" : {
         "revision" : "ce592ae52f982c847a4efc0dd881cc9eb32d29f2",
         "version" : "1.6.4"
@@ -222,8 +213,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-metrics.git",
       "state" : {
-        "revision" : "3edd2f57afc4e68e23c3e4956bc8b65ca6b5b2ff",
-        "version" : "2.2.0"
+        "revision" : "0743a9364382629da3bf5677b46a2c4b1ce5d2a6",
+        "version" : "2.7.1"
       }
     },
     {

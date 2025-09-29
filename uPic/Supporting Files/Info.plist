@@ -54,7 +54,5 @@
 	<string>NSApplication</string>
 	<key>OSAScriptingDefinition</key>
 	<string>UPic.sdef</string>
-	<key>TeamIdentifierPrefix</key>
-	<string>$(TeamIdentifierPrefix)</string>
 </dict>
 </plist>

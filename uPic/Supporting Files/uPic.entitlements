@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>$(TeamIdentifierPrefix)com.svend.uPic</string>
+		<string>group.svend.uPic</string>
 	</array>
 	<key>com.apple.security.cs.disable-library-validation</key>
 	<true/>
@@ -16,12 +16,12 @@
 	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
-	<key>com.apple.security.temporary-exception.mach-register.global-name</key>
-	<string>com.apple.screencapture.interactive</string>
 	<key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
 	<array>
 		<string>/Library/Safari/Bookmarks.plist</string>
 		<string>/Library/Safari/CloudTabs.db</string>
 	</array>
+	<key>com.apple.security.temporary-exception.mach-register.global-name</key>
+	<string>com.apple.screencapture.interactive</string>
 </dict>
 </plist>

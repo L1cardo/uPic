@@ -9,16 +9,11 @@
 import Foundation
 
 class FinderUtil {
-    private static var groupName: String {
-        let infoDic = Bundle.main.infoDictionary!
-        return "\(infoDic["TeamIdentifierPrefix"]!)com.svend.uPic"
-    }
-    
     // MARK: - App Group Shared Files
     
     /// 获取 App Group 共享目录
     private static var sharedContainerURL: URL? {
-        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupName)
+        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Constants.appGroupName)
     }
     
     /// 获取共享文件存储目录
@@ -87,7 +82,7 @@ class FinderUtil {
     /// 保存共享文件信息
     /// - Parameter fileURLs: 共享文件URL数组
     static func saveSharedFiles(_ fileURLs: [URL]) {
-        let defaults = UserDefaults(suiteName: groupName)
+        let defaults = UserDefaults(suiteName: Constants.appGroupName)
         let filePaths = fileURLs.map { $0.path }
         defaults?.set(filePaths, forKey: sharedFilesKey)
         defaults?.synchronize()
@@ -96,7 +91,7 @@ class FinderUtil {
     /// 获取并清除共享文件信息
     /// - Returns: 共享文件URL数组
     static func getAndClearSharedFiles() -> [URL] {
-        let defaults = UserDefaults(suiteName: groupName)
+        let defaults = UserDefaults(suiteName: Constants.appGroupName)
         guard let filePaths = defaults?.array(forKey: sharedFilesKey) as? [String] else {
             return []
         }
@@ -111,7 +106,7 @@ class FinderUtil {
     /// 检查是否有待处理的共享文件
     /// - Returns: 是否有共享文件
     static func hasSharedFiles() -> Bool {
-        let defaults = UserDefaults(suiteName: groupName)
+        let defaults = UserDefaults(suiteName: Constants.appGroupName)
         return defaults?.array(forKey: sharedFilesKey) != nil
     }
 }
