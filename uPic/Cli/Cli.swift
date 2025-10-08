@@ -12,7 +12,6 @@ import Cocoa
 enum UploadSourceType {
     case normal
     case cli
-    case shareExtension
 }
 
 class Cli {

@@ -25,15 +25,22 @@ class ShareViewController: NSViewController {
         self.timerLabel.stringValue = "Please wait...".localized
         okButton.title = "OK".localized
 
-        processSelectedFiles { success in
+        processSelectedFiles { filePaths in
             DispatchQueue.main.async {
-                if success {
+                if !filePaths.isEmpty {
                     self.label.stringValue = "Success".localized
                     self.timerLabel.stringValue = "Launching uPic...".localized
                     
-                    // 使用特定标记调起主应用
-                    if let url = URL(string: "uPic://share-extension-upload") {
+                    // 将文件路径编码并通过 URL Scheme 传递给主应用
+                    let encodedPaths = filePaths.compactMap { $0.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) }
+                    let pathsParam = encodedPaths.joined(separator: ",")
+                    let encodeUrl = "uPic://files?\(pathsParam)"
+                    
+                    if let url = URL(string: encodeUrl) {
                         NSWorkspace.shared.open(url)
+                        debugPrint("调用主应用，传递文件路径: \(filePaths)")
+                    } else {
+                        debugPrint("创建 URL 失败: \(encodeUrl)")
                     }
                     
                     // 成功后短暂延迟关闭
@@ -55,13 +62,13 @@ class ShareViewController: NSViewController {
         }
     }
     
-    func processSelectedFiles(completion: @escaping (Bool) -> Void) {
+    func processSelectedFiles(completion: @escaping ([String]) -> Void) {
         let item = self.extensionContext!.inputItems[0] as! NSExtensionItem
-        var sharedFileURLs: [URL] = []
+        var filePaths: [String] = []
         var processedCount = 0
         
         guard let itemProviders = item.attachments, !itemProviders.isEmpty else {
-            completion(false)
+            completion([])
             return
         }
         
@@ -73,13 +80,8 @@ class ShareViewController: NSViewController {
                     defer {
                         processedCount += 1
                         if processedCount == totalCount {
-                            // 所有文件处理完成
-                            if !sharedFileURLs.isEmpty {
-                                FinderUtil.saveSharedFiles(sharedFileURLs)
-                                completion(true)
-                            } else {
-                                completion(false)
-                            }
+                            // 所有文件处理完成，返回文件路径数组
+                            completion(filePaths)
                         }
                     }
                     
@@ -94,18 +96,15 @@ class ShareViewController: NSViewController {
                         return
                     }
                     
-                    // 复制文件到共享目录
-                    if let sharedURL = FinderUtil.copyFileToSharedDirectory(originalURL) {
-                        sharedFileURLs.append(sharedURL)
-                        debugPrint("文件已复制到共享目录: \(sharedURL.path)")
-                    } else {
-                        debugPrint("复制文件到共享目录失败: \(originalURL.path)")
-                    }
+                    // 直接获取原始文件路径，不再复制文件
+                    let filePath = originalURL.path
+                    filePaths.append(filePath)
+                    debugPrint("获取到文件路径: \(filePath)")
                 }
             } else {
                 processedCount += 1
-                if processedCount == itemProviders.count {
-                    completion(!sharedFileURLs.isEmpty)
+                if processedCount == totalCount {
+                    completion(filePaths)
                 }
             }
         }
