@@ -387,17 +387,6 @@ extension DiskPermissionManager {
         Logger.shared.verbose("取消根目录权限成功")
     }
     
-    
-    func requestHomeDirectoryPermissions() {
-        Logger.shared.verbose("开始授权主目录权限")
-        guard let url = self.promptForWorkingDirectoryPermission(for: URL(fileURLWithPath: "~/", isDirectory: true)) else {
-            Logger.shared.verbose("授权主目录权限失败")
-            return
-        }
-        self.saveBookmarkData(for: url, defaultKey: .homeDirectoryBookmark)
-        Logger.shared.verbose("授权主目录权限成功-\(url.path)")
-    }
-    
     // 获取安全授权，根目录授权优先获取，无根目录书签时获取主目录书签
     func startDirectoryAccessing() -> Bool {
         Logger.shared.verbose("开始获取安全授权")
@@ -423,15 +412,6 @@ extension DiskPermissionManager {
             workingDirectoryBookmarkUrl = url
             let flag = url.startAccessingSecurityScopedResource()
             Logger.shared.verbose("获取安全授权完成--根目录-\(url.path)")
-            return flag
-        } 
-        
-        // 如果根目录方案都失败，尝试主目录授权书签
-        if let data = Defaults[.homeDirectoryBookmark], let url = restoreFileAccess(with: data, defaultKey: .homeDirectoryBookmark) {
-            
-            workingDirectoryBookmarkUrl = url
-            let flag = url.startAccessingSecurityScopedResource()
-            Logger.shared.verbose("获取安全授权完成--用户主目录-\(url.path)")
             return flag
         }
         
