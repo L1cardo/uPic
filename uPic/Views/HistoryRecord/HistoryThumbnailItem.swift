@@ -94,11 +94,12 @@ class HistoryThumbnailItem: NSCollectionViewItem {
             guard let self = self else { return }
             switch status {
             case .entered:
-                HistoryThumbnailTimer.shared.dispatchTimer(timeInterval: 0.5) { [weak self] timer in
-                    guard let self = self else { return }
-                    self.mouseStatusHandler?(.entered, point, mouseView)
+                // 使用强引用确保在定时器期间对象不被释放
+                let strongSelf = self
+                HistoryThumbnailTimer.shared.dispatchTimer(timeInterval: 0.5) { timer in
+                    strongSelf.mouseStatusHandler?(.entered, point, mouseView)
                     timer.cancel()
-                    self.beginScrollFileName()
+                    strongSelf.beginScrollFileName()
                 }
             case .exited:
                 self.mouseStatusHandler?(.exited, point, mouseView)
