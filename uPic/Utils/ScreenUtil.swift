@@ -49,25 +49,18 @@ class ScreenUtil {
         }
         NSWorkspace.shared.open(url)
     }
-    
-    static func resetScreenshotApp() {
-        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
-        defaults?.set(ScreenshotApp.system.rawValue, forKey: "uPic_ScreenshotApp")
-        defaults?.synchronize()
-    }
-    
+
     static func getScreenshotApp() -> ScreenshotApp {
-        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
-        guard let screenshotApp = defaults?.value(forKey: "uPic_ScreenshotApp") else {
-            return .system
-        }
-        return ScreenshotApp(rawValue: screenshotApp as! Int)!
+        let screenshotApp = UserDefaults.standard.integer(forKey: "uPic_ScreenshotApp")
+        return ScreenshotApp(rawValue: screenshotApp) ?? .system
     }
-    
+
     static func setScreenshotApp(_ value: ScreenshotApp) {
-        let defaults = UserDefaults.init(suiteName: Constants.appGroupName)
-        defaults?.set(value.rawValue, forKey: "uPic_ScreenshotApp")
-        defaults?.synchronize()
+        UserDefaults.standard.set(value.rawValue, forKey: "uPic_ScreenshotApp")
+    }
+
+    static func resetScreenshotApp() {
+        UserDefaults.standard.set(ScreenshotApp.system.rawValue, forKey: "uPic_ScreenshotApp")
     }
 }
 

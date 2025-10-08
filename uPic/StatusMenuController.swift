@@ -46,7 +46,7 @@ class StatusMenuController: NSObject, NSMenuDelegate {
         bindKeyboadShortcuts()
         
         // 正在上传
-        if (NSApplication.shared.delegate as? AppDelegate)?.uploding ?? false {
+        if (NSApplication.shared.delegate as? AppDelegate)?.uploading ?? false {
             self.cancelUploadMenuItem.isHidden = false
             self.cancelUploadMenuSeparator.isHidden = false
         } else {
