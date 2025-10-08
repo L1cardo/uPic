@@ -61,10 +61,10 @@ class AdvancedPreferencesViewController: PreferencesViewController {
         let isAuthorized = DiskPermissionManager.shared.checkFullDiskAuthorizationStatus()
         if isAuthorized {
             fullDiskAuthorizationImage.image = NSImage(named: NSImage.statusAvailableName)
-            fullDiskAuthorizationButton.title = "Authorized".localized
+            fullDiskAuthorizationButton.title = "Manage Permission".localized // 更直观的按钮文本
         } else {
             fullDiskAuthorizationImage.image = NSImage(named: NSImage.statusPartiallyAvailableName)
-            fullDiskAuthorizationButton.title = "Not Authorized".localized
+            fullDiskAuthorizationButton.title = "Grant Permission".localized // 更直观的按钮文本
         }
     }
     
@@ -107,15 +107,43 @@ class AdvancedPreferencesViewController: PreferencesViewController {
     
     @IBAction func didClickfullDiskAuthorizationButton(_ sender: NSButton) {
         let isAuthorized = DiskPermissionManager.shared.checkFullDiskAuthorizationStatus()
-        if !isAuthorized {
-            // 打开系统设置让用户取消权限
-            DiskPermissionManager.shared.openPreferences()
+        if isAuthorized {
+            // 已授权状态下，提供重新授权选项
+            let alert = NSAlert()
+            alert.messageText = "Disk Access Permission".localized
+            alert.informativeText = "Current disk access permission is active. What would you like to do?".localized
+            alert.addButton(withTitle: "Re-authorize".localized)
+            alert.addButton(withTitle: "Revoke Permission".localized)
+            alert.addButton(withTitle: "Cancel".localized)
+            
+            let response = alert.runModal()
+            switch response {
+            case .alertFirstButtonReturn:
+                // 重新授权：先清除现有权限，再请求新权限
+                DiskPermissionManager.shared.cancelFullDiskPermissions()
+                DiskPermissionManager.shared.requestFullDiskPermissions()
+            case .alertSecondButtonReturn:
+                // 撤销权限：需要二次确认
+                let confirmAlert = NSAlert()
+                confirmAlert.messageText = "Confirm Revoke Permission".localized
+                confirmAlert.informativeText = "Are you sure you want to revoke disk access permission? This may affect file uploading functionality.".localized
+                confirmAlert.addButton(withTitle: "Revoke".localized)
+                confirmAlert.addButton(withTitle: "Cancel".localized)
+                confirmAlert.alertStyle = .warning
+                
+                if confirmAlert.runModal() == .alertFirstButtonReturn {
+                    DiskPermissionManager.shared.cancelFullDiskPermissions()
+                }
+            default:
+                // 取消，不做任何操作
+                break
+            }
         } else {
-            // 请求完全磁盘访问权限
+            // 未授权状态下，直接请求授权
             DiskPermissionManager.shared.requestFullDiskPermissions()
         }
         
-        // 延迟检查状态，因为权限请求可能需要一些时间
+        // 延迟检查状态
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             self.checkFullDiskAuthorizationStatus()
         }

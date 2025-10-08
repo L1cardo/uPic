@@ -16,11 +16,6 @@
 	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
-	<key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
-	<array>
-		<string>/Library/Safari/Bookmarks.plist</string>
-		<string>/Library/Safari/CloudTabs.db</string>
-	</array>
 	<key>com.apple.security.temporary-exception.mach-register.global-name</key>
 	<string>com.apple.screencapture.interactive</string>
 </dict>

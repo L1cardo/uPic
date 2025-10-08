@@ -24,7 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var statusItemMenu: NSMenu!
     
     // 是否正在上传
-    var uploding = false
+    var uploading = false
     // 需要上传的文件
     var needUploadFiles = [Any]()
     // 上传成功的url
@@ -73,9 +73,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Insert code here to initialize your application
         ConfigManager.shared.firstSetup()
-
-        // 删除旧版本的根目录和用户目录权限
-        DiskPermissionManager.shared.removeOldFullDiskPermissions()
+        
+        // 检查是否可以从子目录方案升级到根目录方案
+        DiskPermissionManager.shared.tryUpgradeToRootDirectoryPermission()
         
         if !Defaults[.requestedAuthorization] {
             Defaults[.requestedAuthorization] = true
@@ -173,7 +173,7 @@ extension AppDelegate {
             statusItem.button?.performClick(self)
             statusItem.menu = nil
         } else if event.type == .rightMouseUp {
-            if uploding {
+            if uploading {
                 self.uploadCancel()
             } else {
                 statusItem.menu = statusItemMenu
@@ -217,7 +217,7 @@ extension AppDelegate {
     @objc func selectFile() {
         Logger.shared.info("选择文件上传")
         
-        if self.uploding {
+        if self.uploading {
             Logger.shared.warn("当前上传任务未结束")
             NotificationExt.shared.postUplodingNotice()
             return
@@ -249,7 +249,7 @@ extension AppDelegate {
     @objc func uploadByPasteboard() {
         Logger.shared.info("从剪切板上传")
         
-        if self.uploding {
+        if self.uploading {
             Logger.shared.warn("当前上传任务未结束")
             NotificationExt.shared.postUplodingNotice()
             return
@@ -309,7 +309,7 @@ extension AppDelegate {
     @objc func screenshotAndUpload() {
         Logger.shared.info("截图上传")
         
-        if self.uploding {
+        if self.uploading {
             Logger.shared.warn("当前上传任务未结束")
             NotificationExt.shared.postUplodingNotice()
             return
@@ -407,55 +407,9 @@ extension AppDelegate: NSWindowDelegate, NSDraggingDestination {
 
 // 上传方法
 extension AppDelegate {
-    // 处理来自 ShareExtension 的文件上传
-    func uploadFilesFromShareExtension() {
-        Logger.shared.verbose("开始处理来自 ShareExtension 的文件上传")
-        
-        let sharedFiles = FinderUtil.getAndClearSharedFiles()
-        
-        if sharedFiles.isEmpty {
-            Logger.shared.warn("没有找到来自 ShareExtension 的共享文件")
-            NotificationExt.shared.postUploadErrorNotice("No files found from ShareExtension".localized)
-            return
-        }
-        
-        Logger.shared.verbose("获取到 \(sharedFiles.count) 个共享文件")
-        
-        let fileExtensions = BaseUploader.getFileExtensions()
-        var validFiles = [URL]()
-        
-        for fileURL in sharedFiles {
-            // 检查文件是否存在
-            if !FileManager.default.fileExists(atPath: fileURL.path) {
-                Logger.shared.warn("共享文件不存在: \(fileURL.path)")
-                continue
-            }
-            
-            // 检查文件格式
-            if fileExtensions.isEmpty || fileExtensions.contains(fileURL.pathExtension.lowercased()) {
-                validFiles.append(fileURL)
-            } else {
-                Logger.shared.warn("文件格式不支持: \(fileURL.path)")
-                // 删除不支持的文件
-                FinderUtil.removeFileFromSharedDirectory(fileURL)
-            }
-        }
-        
-        if validFiles.isEmpty {
-            Logger.shared.error("没有有效的文件可以上传")
-            NotificationExt.shared.postUploadErrorNotice("File format not supported!".localized)
-            // 清理所有剩余文件
-            FinderUtil.cleanupSharedFiles()
-            return
-        }
-        
-        // 设置上传来源为 ShareExtension 并上传文件
-        self.uploadFiles(validFiles, .shareExtension)
-    }
-    
-    // 解析以 \n 分割的多个文件路径并上传
+    // 解析以 , 分割的多个文件路径并上传
     func uploadFilesFromPaths(_ pathStr: String) {
-        let paths = pathStr.split(separator: Character("\n"))
+        let paths = pathStr.split(separator: Character(","))
 
         Logger.shared.verbose("解析到 \(paths.count) 个文件路径")
         
@@ -535,12 +489,15 @@ extension AppDelegate {
             return
         }
 
+        // 开始磁盘授权访问
+        _ = DiskPermissionManager.shared.startDirectoryAccessing()
+        
         // 检查磁盘访问权限
         if !DiskPermissionManager.shared.checkFullDiskAuthorizationStatus() {
             Logger.shared.warn("没有完全磁盘访问权限，可能影响文件上传")
         }
         
-        self.uploding = true
+        self.uploading = true
         self.tickFileToUpload()
     }
     
@@ -628,24 +585,18 @@ extension AppDelegate {
         Logger.shared.warn("取消上传")
         self.setStatusBarIcon(isIndicator: false)
         BaseUploader.cancelUpload()
-        FinderUtil.cleanupSharedFiles()
         self.needUploadFiles.removeAll()
         self.resultUrls.removeAll()
-        self.uploding = false
+        self.uploading = false
     }
     
     func uploadDone() {
         Logger.shared.info("上传任务结束：\(self.resultUrls.joined(separator: " | "))")
         
-        // PermissionsKit 自动管理权限，无需手动停止
+        // 停止磁盘授权访问
+        DiskPermissionManager.shared.stopDirectoryAccessing()
         
-        // 清理 ShareExtension 共享文件
-        if uploadSourceType == UploadSourceType.shareExtension {
-            FinderUtil.cleanupSharedFiles()
-            Logger.shared.verbose("已清理 ShareExtension 共享文件")
-        }
-        
-        self.uploding = false
+        self.uploading = false
         // MARK: - Cli Support
         if uploadSourceType == UploadSourceType.cli {
             Cli.shared.uploadDone()
