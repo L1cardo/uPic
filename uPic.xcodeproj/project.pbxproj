@@ -59,7 +59,6 @@
 		1662AC7122C0AC53003AC924 /* AliyunConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662AC7022C0AC52003AC924 /* AliyunConfigView.swift */; };
 		166B4A5322B9CB4D001288ED /* UpYunConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B4A5222B9CB4D001288ED /* UpYunConfigView.swift */; };
 		166B4A5722B9D118001288ED /* PreferencesNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B4A5622B9D118001288ED /* PreferencesNotifier.swift */; };
-		16725B262E7F02B100A8FB12 /* LCPermissionsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16725B252E7F02B100A8FB12 /* LCPermissionsKit */; };
 		1672762322AFF655007299C3 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672762222AFF655007299C3 /* Host.swift */; };
 		1675516222ABF80300D3EB6F /* NSDragingInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675516122ABF80300D3EB6F /* NSDragingInfo+Extension.swift */; };
 		1675516A22ACAA5900D3EB6F /* AppPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675516922ACAA5900D3EB6F /* AppPublic.swift */; };
@@ -107,7 +106,8 @@
 		16CD34F723BC88E2005B52F2 /* SmmsConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34F623BC88E2005B52F2 /* SmmsConfigView.swift */; };
 		16CD34FB23BC8966005B52F2 /* Swime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34F923BC8966005B52F2 /* Swime.swift */; };
 		16CD34FC23BC8966005B52F2 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34FA23BC8966005B52F2 /* MimeType.swift */; };
-		16CDDBCA2E82453300C6BF2D /* FinderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ECAA952413B6C200F9236B /* FinderUtil.swift */; };
+		16CE27F92E967AAB00463AAF /* uPic.icon in Resources */ = {isa = PBXBuildFile; fileRef = 16CE27F82E967AAB00463AAF /* uPic.icon */; };
+		16CE27FD2E967FBD00463AAF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 16CE27FC2E967FBD00463AAF /* icon.icns */; };
 		16D20B5523838AB1006D8D01 /* BaiduRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B54238388D8006D8D01 /* BaiduRegion.swift */; };
 		16D20B5623838AB5006D8D01 /* BaiduHostConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B532383889F006D8D01 /* BaiduHostConfig.swift */; };
 		16D20B58238390F2006D8D01 /* BaiduUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B57238390F2006D8D01 /* BaiduUploader.swift */; };
@@ -115,7 +115,6 @@
 		16D20B5C238392C9006D8D01 /* BaiduConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B5B238392C9006D8D01 /* BaiduConfigView.swift */; };
 		16E3B57925B5342000D4234F /* OutputFormatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3B57825B5341F00D4234F /* OutputFormatModel.swift */; };
 		16EA205C22AF8FB90006FB9C /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA205B22AF8FB90006FB9C /* ConfigManager.swift */; };
-		16ECAA962413B6C200F9236B /* FinderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ECAA952413B6C200F9236B /* FinderUtil.swift */; };
 		16F04EE423BCC45F00CCA2FE /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F04EDE23BCC45F00CCA2FE /* Console.swift */; };
 		16F04EE523BCC45F00CCA2FE /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F04EE023BCC45F00CCA2FE /* CommandLine.swift */; };
 		16F04EE623BCC45F00CCA2FE /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F04EE123BCC45F00CCA2FE /* Option.swift */; };
@@ -149,7 +148,6 @@
 		965E817125B721650031A01F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E817025B721650031A01F /* WelcomeViewController.swift */; };
 		965E819B25B7274E0031A01F /* WelcomeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E819A25B7274E0031A01F /* WelcomeWindowController.swift */; };
 		966BF3592E89402400BE9EC7 /* PasteboardType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */; };
-		966BF3F32E894A4A00BE9EC7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 966BF3F22E894A4A00BE9EC7 /* icon.icns */; };
 		96767C02266C8AEB00867727 /* UPic.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 96767C01266C8AEB00867727 /* UPic.sdef */; };
 		96767C09266CABC800867727 /* AppleScriptCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96767C08266CABC800867727 /* AppleScriptCommand.swift */; };
 		96B6C3F325AD89F200B1A584 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6C3F225AD89F200B1A584 /* ShareViewController.swift */; };
@@ -302,6 +300,8 @@
 		16CD34F623BC88E2005B52F2 /* SmmsConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmmsConfigView.swift; sourceTree = "<group>"; };
 		16CD34F923BC8966005B52F2 /* Swime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swime.swift; sourceTree = "<group>"; };
 		16CD34FA23BC8966005B52F2 /* MimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		16CE27F82E967AAB00463AAF /* uPic.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = uPic.icon; sourceTree = "<group>"; };
+		16CE27FC2E967FBD00463AAF /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		16D20B532383889F006D8D01 /* BaiduHostConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduHostConfig.swift; sourceTree = "<group>"; };
 		16D20B54238388D8006D8D01 /* BaiduRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduRegion.swift; sourceTree = "<group>"; };
 		16D20B57238390F2006D8D01 /* BaiduUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduUploader.swift; sourceTree = "<group>"; };
@@ -310,7 +310,6 @@
 		16E3B57825B5341F00D4234F /* OutputFormatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputFormatModel.swift; sourceTree = "<group>"; };
 		16EA205B22AF8FB90006FB9C /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
 		16EC9A0222ABBBB4001B6C89 /* uPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16ECAA952413B6C200F9236B /* FinderUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderUtil.swift; sourceTree = "<group>"; };
 		16F04EDE23BCC45F00CCA2FE /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
 		16F04EE023BCC45F00CCA2FE /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
 		16F04EE123BCC45F00CCA2FE /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
@@ -342,7 +341,6 @@
 		965E817025B721650031A01F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		965E819A25B7274E0031A01F /* WelcomeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowController.swift; sourceTree = "<group>"; };
 		966BF3582E89402400BE9EC7 /* PasteboardType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasteboardType+Extension.swift"; sourceTree = "<group>"; };
-		966BF3F22E894A4A00BE9EC7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		96767C01266C8AEB00867727 /* UPic.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UPic.sdef; sourceTree = "<group>"; };
 		96767C08266CABC800867727 /* AppleScriptCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptCommand.swift; sourceTree = "<group>"; };
 		96B6C3EE25AD89F200B1A584 /* uPicShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = uPicShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -365,7 +363,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16725B262E7F02B100A8FB12 /* LCPermissionsKit in Frameworks */,
 				96FD4E122E89139F001D2E32 /* KeyboardShortcuts in Frameworks */,
 				1649393D285E2620007278DA /* CocoaLumberjack in Frameworks */,
 				96FD4E162E891909001D2E32 /* LaunchAtLogin in Frameworks */,
@@ -464,7 +461,6 @@
 		163F242022B12EB900F81D03 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				16ECAA952413B6C200F9236B /* FinderUtil.swift */,
 				1675516922ACAA5900D3EB6F /* AppPublic.swift */,
 				160CAA2422B1ED6F00D04FBD /* PreferenceKey.swift */,
 				1647474422B66E3400F9575D /* Util.swift */,
@@ -677,6 +673,7 @@
 				164C39FE22B2AA5E003ADE39 /* Notifier */,
 				16ADBE5E22D1D74D00E6C605 /* Views */,
 				16A6DC6822AA3AD900813706 /* Supporting Files */,
+				16CE27F82E967AAB00463AAF /* uPic.icon */,
 			);
 			path = uPic;
 			sourceTree = "<group>";
@@ -814,12 +811,12 @@
 			isa = PBXGroup;
 			children = (
 				16A0480525B18317000F1323 /* uPicShareExtensionDebug.entitlements */,
-				966BF3F22E894A4A00BE9EC7 /* icon.icns */,
 				96B6C3F225AD89F200B1A584 /* ShareViewController.swift */,
 				96B6C3F425AD89F200B1A584 /* ShareViewController.xib */,
 				96B6C3F725AD89F200B1A584 /* Info.plist */,
 				96B6C3F825AD89F200B1A584 /* uPicShareExtension.entitlements */,
 				962559B32E89094300170641 /* InfoPlist.xcstrings */,
+				16CE27FC2E967FBD00463AAF /* icon.icns */,
 			);
 			path = uPicShareExtension;
 			sourceTree = "<group>";
@@ -875,7 +872,6 @@
 				1649393E285E2620007278DA /* CocoaLumberjackSwift */,
 				1649394C285F1C45007278DA /* Zip */,
 				9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */,
-				16725B252E7F02B100A8FB12 /* LCPermissionsKit */,
 				96FD4E112E89139F001D2E32 /* KeyboardShortcuts */,
 				96FD4E152E891909001D2E32 /* LaunchAtLogin */,
 			);
@@ -957,7 +953,6 @@
 				1649393B285E2620007278DA /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 				1649394B285F1C44007278DA /* XCRemoteSwiftPackageReference "Zip" */,
 				9610BE8C2CCE84A300FD9F77 /* XCRemoteSwiftPackageReference "wcdb" */,
-				16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */,
 				962559B72E890B9F00170641 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
 				962559B82E890BE500170641 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
 			);
@@ -984,6 +979,7 @@
 				96767C02266C8AEB00867727 /* UPic.sdef in Resources */,
 				169F073B22AF53DE008E8525 /* Preferences.storyboard in Resources */,
 				16BDDE0322EAA2920080E467 /* Assets.xcassets in Resources */,
+				16CE27F92E967AAB00463AAF /* uPic.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -991,8 +987,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966BF3F32E894A4A00BE9EC7 /* icon.icns in Resources */,
 				962559B42E89094300170641 /* InfoPlist.xcstrings in Resources */,
+				16CE27FD2E967FBD00463AAF /* icon.icns in Resources */,
 				96B6C3F625AD89F200B1A584 /* ShareViewController.xib in Resources */,
 				962559B02E89094300170641 /* Localizable.xcstrings in Resources */,
 			);
@@ -1136,7 +1132,6 @@
 				169F073922AF4549008E8525 /* GeneralPreferencesViewController.swift in Sources */,
 				16068C7C22AECD9F004D39B7 /* Constants.swift in Sources */,
 				96DBE27D25B7B7A7006F02FE /* WindowManager.swift in Sources */,
-				16ECAA962413B6C200F9236B /* FinderUtil.swift in Sources */,
 				161C3BE522C4870C0092114F /* CustomConfigView.swift in Sources */,
 				16AFDB3424E50DD30008E5A7 /* S3Util.swift in Sources */,
 				1660FCBC22C11C7500372950 /* TencentUtil.swift in Sources */,
@@ -1159,7 +1154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B6C42025AD934B00B1A584 /* String+Extension.swift in Sources */,
-				16CDDBCA2E82453300C6BF2D /* FinderUtil.swift in Sources */,
 				96B6C3F325AD89F200B1A584 /* ShareViewController.swift in Sources */,
 				16152F962E897552003D0768 /* Constants.swift in Sources */,
 			);
@@ -1370,14 +1364,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = uPic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPicDebug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1413,14 +1408,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = uPic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "uPic/Supporting Files/uPic.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1459,7 +1455,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1472,7 +1468,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos.uPicShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1491,7 +1487,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1504,7 +1500,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.4.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.svend.uPic.macos.uPicShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1570,14 +1566,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 6.6.0;
-			};
-		};
-		16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DevLiuSir/LCPermissionsKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
 			};
 		};
 		9610BE8C2CCE84A300FD9F77 /* XCRemoteSwiftPackageReference "wcdb" */ = {
@@ -1674,11 +1662,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 16539DCD278AD8700035B9DF /* XCRemoteSwiftPackageReference "soto" */;
 			productName = SotoS3;
-		};
-		16725B252E7F02B100A8FB12 /* LCPermissionsKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 16725B242E7F02B100A8FB12 /* XCRemoteSwiftPackageReference "LCPermissionsKit" */;
-			productName = LCPermissionsKit;
 		};
 		9610BE8D2CCE84A300FD9F77 /* WCDBSwiftDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
