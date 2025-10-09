@@ -96,9 +96,9 @@ class HistoryThumbnailItem: NSCollectionViewItem {
             case .entered:
                 // 使用强引用确保在定时器期间对象不被释放
                 let strongSelf = self
-                HistoryThumbnailTimer.shared.dispatchTimer(timeInterval: 0.5) { timer in
-                    strongSelf.mouseStatusHandler?(.entered, point, mouseView)
+                HistoryThumbnailTimer.shared.dispatchTimer(timeInterval: 0.25) { timer in
                     timer.cancel()
+                    strongSelf.mouseStatusHandler?(.entered, point, mouseView)
                     strongSelf.beginScrollFileName()
                 }
             case .exited:
