@@ -13,10 +13,10 @@
           "image-name" : "Frame 2.png",
           "name" : "upic",
           "position" : {
-            "scale" : 0.93,
+            "scale" : 0.85,
             "translation-in-points" : [
               6,
-              -30
+              -40
             ]
           }
         }

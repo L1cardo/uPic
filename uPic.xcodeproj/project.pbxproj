@@ -60,6 +60,7 @@
 		166B4A5322B9CB4D001288ED /* UpYunConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B4A5222B9CB4D001288ED /* UpYunConfigView.swift */; };
 		166B4A5722B9D118001288ED /* PreferencesNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B4A5622B9D118001288ED /* PreferencesNotifier.swift */; };
 		1672762322AFF655007299C3 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672762222AFF655007299C3 /* Host.swift */; };
+		1673CCBB2E97DD5F00F31422 /* uPic.icon in Resources */ = {isa = PBXBuildFile; fileRef = 1673CCBA2E97DD5F00F31422 /* uPic.icon */; };
 		1675516222ABF80300D3EB6F /* NSDragingInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675516122ABF80300D3EB6F /* NSDragingInfo+Extension.swift */; };
 		1675516A22ACAA5900D3EB6F /* AppPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675516922ACAA5900D3EB6F /* AppPublic.swift */; };
 		1675EC5322FB38240038DA33 /* BaseUploaderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675EC5222FB38240038DA33 /* BaseUploaderUtil.swift */; };
@@ -106,7 +107,6 @@
 		16CD34F723BC88E2005B52F2 /* SmmsConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34F623BC88E2005B52F2 /* SmmsConfigView.swift */; };
 		16CD34FB23BC8966005B52F2 /* Swime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34F923BC8966005B52F2 /* Swime.swift */; };
 		16CD34FC23BC8966005B52F2 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD34FA23BC8966005B52F2 /* MimeType.swift */; };
-		16CE27F92E967AAB00463AAF /* uPic.icon in Resources */ = {isa = PBXBuildFile; fileRef = 16CE27F82E967AAB00463AAF /* uPic.icon */; };
 		16CE27FD2E967FBD00463AAF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 16CE27FC2E967FBD00463AAF /* icon.icns */; };
 		16D20B5523838AB1006D8D01 /* BaiduRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B54238388D8006D8D01 /* BaiduRegion.swift */; };
 		16D20B5623838AB5006D8D01 /* BaiduHostConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D20B532383889F006D8D01 /* BaiduHostConfig.swift */; };
@@ -250,6 +250,7 @@
 		166B4A5222B9CB4D001288ED /* UpYunConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpYunConfigView.swift; sourceTree = "<group>"; };
 		166B4A5622B9D118001288ED /* PreferencesNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesNotifier.swift; sourceTree = "<group>"; };
 		1672762222AFF655007299C3 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		1673CCBA2E97DD5F00F31422 /* uPic.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = uPic.icon; sourceTree = "<group>"; };
 		1675516122ABF80300D3EB6F /* NSDragingInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDragingInfo+Extension.swift"; sourceTree = "<group>"; };
 		1675516922ACAA5900D3EB6F /* AppPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPublic.swift; sourceTree = "<group>"; };
 		1675EC5222FB38240038DA33 /* BaseUploaderUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUploaderUtil.swift; sourceTree = "<group>"; };
@@ -300,7 +301,6 @@
 		16CD34F623BC88E2005B52F2 /* SmmsConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmmsConfigView.swift; sourceTree = "<group>"; };
 		16CD34F923BC8966005B52F2 /* Swime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swime.swift; sourceTree = "<group>"; };
 		16CD34FA23BC8966005B52F2 /* MimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
-		16CE27F82E967AAB00463AAF /* uPic.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = uPic.icon; sourceTree = "<group>"; };
 		16CE27FC2E967FBD00463AAF /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		16D20B532383889F006D8D01 /* BaiduHostConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduHostConfig.swift; sourceTree = "<group>"; };
 		16D20B54238388D8006D8D01 /* BaiduRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduRegion.swift; sourceTree = "<group>"; };
@@ -673,7 +673,7 @@
 				164C39FE22B2AA5E003ADE39 /* Notifier */,
 				16ADBE5E22D1D74D00E6C605 /* Views */,
 				16A6DC6822AA3AD900813706 /* Supporting Files */,
-				16CE27F82E967AAB00463AAF /* uPic.icon */,
+				1673CCBA2E97DD5F00F31422 /* uPic.icon */,
 			);
 			path = uPic;
 			sourceTree = "<group>";
@@ -975,11 +975,11 @@
 				1648A216238E742600B99B9D /* Main.storyboard in Resources */,
 				96F633FF25AF008F005514EB /* Database.storyboard in Resources */,
 				165C86D325B91F8000C538AD /* ScreenshotAuthorizationHelp.storyboard in Resources */,
+				1673CCBB2E97DD5F00F31422 /* uPic.icon in Resources */,
 				962559AF2E89094300170641 /* Localizable.xcstrings in Resources */,
 				96767C02266C8AEB00867727 /* UPic.sdef in Resources */,
 				169F073B22AF53DE008E8525 /* Preferences.storyboard in Resources */,
 				16BDDE0322EAA2920080E467 /* Assets.xcassets in Resources */,
-				16CE27F92E967AAB00463AAF /* uPic.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1372,7 +1372,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1416,7 +1416,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1455,7 +1455,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
@@ -1487,7 +1487,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W863J6W8DZ;
 				ENABLE_APP_SANDBOX = YES;
