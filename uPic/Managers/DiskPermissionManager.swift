@@ -91,7 +91,7 @@ public class DiskPermissionManager {
         let excludedPaths: Set<String> = [
             "home", "dev", "tmp", "var", "etc", "private",
             ".file", ".VolumeIcon.icns", ".fseventsd", ".DocumentRevisions-V100",
-            ".Spotlight-V100", ".Trashes", ".vol", "net", "Volumes"
+            ".Spotlight-V100", ".Trashes", ".vol", "net"
         ]
         
         do {
@@ -102,7 +102,7 @@ public class DiskPermissionManager {
             var failureCount = 0
             
             // 重要目录优先处理
-            let priorityDirs = ["Applications", "System", "Users", "Library"]
+            let priorityDirs = ["Applications", "System", "Users", "Library", "Volumes"]
             let allContents = contents.sorted { url1, url2 in
                 let name1 = url1.lastPathComponent
                 let name2 = url2.lastPathComponent
@@ -172,7 +172,7 @@ public class DiskPermissionManager {
         }
         
         // 检查重要目录的书签是否存在（这些是最常用的目录）
-        let importantDirs = ["Applications", "System", "Users", "Library"]
+        let importantDirs = ["Applications", "System", "Users", "Library", "Volumes"]
         let hasImportantDirs = importantDirs.contains { importantDir in
             storedNames.contains(importantDir)
         }
