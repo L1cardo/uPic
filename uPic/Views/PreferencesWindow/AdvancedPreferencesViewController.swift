@@ -31,17 +31,12 @@ class AdvancedPreferencesViewController: PreferencesViewController {
         super.viewDidLoad()
         
         resetAllValues()
+        checkFullDiskAuthorizationStatus()
     }
     
     override func loadView() {
         super.loadView()
         setupKeyboardShortcutsView()
-    }
-    
-    override func viewDidAppear() {
-        super.viewDidAppear()
-        
-        checkFullDiskAuthorizationStatus()
     }
     
     func resetAllValues() {

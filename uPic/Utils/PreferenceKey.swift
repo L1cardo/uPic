@@ -27,6 +27,7 @@ struct Keys {
     
     static let requestedAuthorization = "uPic_RequestedAuthorization"
     static let rootDirectoryBookmark = "uPic_RootDirectoryBookmark"
+    static let homeDirectoryBookmark = "uPic_HomeDirectoryBookmark"
     static let rootSubdirectoryBookmarks = "uPic_RootSubdirectoryBookmarks"
     static let rootSubdirectoryNames = "uPic_RootSubdirectoryNames"
 }
@@ -69,6 +70,8 @@ extension DefaultsKeys {
     static let requestedAuthorization = DefaultsKey<Bool>(Keys.requestedAuthorization)
     // 根目录授权书签
     static let rootDirectoryBookmark = DefaultsKey<Data>(Keys.rootDirectoryBookmark)
+    // 主目录授权书签
+    static let homeDirectoryBookmark = DefaultsKey<Data>(Keys.homeDirectoryBookmark)
     // 根目录子目录书签（用于 macOS 15.0 的临时解决方案）
     static let rootSubdirectoryBookmarks = DefaultsKey<[Data]>(Keys.rootSubdirectoryBookmarks)
     // 根目录子目录名称列表（用于对比检测）
