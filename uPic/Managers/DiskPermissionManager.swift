@@ -325,41 +325,45 @@ extension DiskPermissionManager {
         return false
     }
     
-    /// 请求完全磁盘访问权限
-    func requestFullDiskPermissions() {
-        Logger.shared.verbose("开始授权根目录权限")
-        guard let url = self.promptForWorkingDirectoryPermission() else {
-            Logger.shared.verbose("授权根目录权限失败")
+    // MARK: - Private Common Permission Request Method
+    
+    /// 通用的权限请求处理方法
+    /// - Parameter defaultDirectory: 默认打开的目录路径
+    private func requestDirectoryPermissions(defaultDirectory: String) {
+        let logPrefix = defaultDirectory == "/" ? "根目录" : "主目录"
+        Logger.shared.verbose("开始授权\(logPrefix)权限")
+        
+        guard let url = self.promptForWorkingDirectoryPermission(for: URL(fileURLWithPath: defaultDirectory, isDirectory: true)) else {
+            Logger.shared.verbose("授权\(logPrefix)权限失败")
             return
         }
         
-        // 如果需要使用临时解决方案（macOS 26.0）
-        if shouldUseRootSubdirectoryWorkaround() {
-            Logger.shared.verbose("使用根目录子目录权限授权方案 (macOS 26.0 临时解决方案)")
-            if url.path == "/" {
+        // 检查用户实际选择的路径
+        if url.path == "/" {
+            // 用户选择了根目录，按全盘权限处理
+            Logger.shared.verbose("用户选择了根目录，按全盘权限处理")
+            
+            // 如果需要使用临时解决方案（macOS 26.0）
+            if shouldUseRootSubdirectoryWorkaround() {
+                Logger.shared.verbose("使用根目录子目录权限授权方案 (macOS 26.0 临时解决方案)")
                 if createRootSubdirectoryBookmarks(rootURL: url) {
                     Logger.shared.verbose("根目录子目录权限授权成功")
                 } else {
                     Logger.shared.verbose("根目录子目录权限授权失败")
                 }
-            } else {
-                Logger.shared.verbose("用户未选择根目录，无法使用子目录授权方案")
+                return
             }
-            return
-        }
-        
-        // 传统的根目录 bookmark 方案
-        // 先尝试创建 bookmark 来检查是否成功
-        do {
-            _ = try url.bookmarkData(options: .withSecurityScope, includingResourceValuesForKeys: nil, relativeTo: nil)
-            // 如果成功，保存 bookmark
-            self.saveBookmarkData(for: url, defaultKey: .rootDirectoryBookmark)
-            Logger.shared.verbose("授权根目录权限成功-\(url.path)")
-        } catch {
-            Logger.shared.error("创建根目录 bookmark 失败: \(error)")
             
-            // 如果传统方案失败，尝试使用临时解决方案
-            if url.path == "/" {
+            // 传统的根目录 bookmark 方案
+            do {
+                _ = try url.bookmarkData(options: .withSecurityScope, includingResourceValuesForKeys: nil, relativeTo: nil)
+                // 如果成功，保存为根目录 bookmark
+                self.saveBookmarkData(for: url, defaultKey: .rootDirectoryBookmark)
+                Logger.shared.verbose("保存为全盘权限-\(url.path)")
+            } catch {
+                Logger.shared.error("创建根目录 bookmark 失败: \(error)")
+                
+                // 如果传统方案失败，尝试使用临时解决方案
                 Logger.shared.verbose("根目录 bookmark 创建失败，尝试使用子目录方案")
                 if createRootSubdirectoryBookmarks(rootURL: url) {
                     Logger.shared.verbose("fallback 到根目录子目录权限授权成功")
@@ -367,9 +371,24 @@ extension DiskPermissionManager {
                     Logger.shared.verbose("fallback 到根目录子目录权限授权也失败")
                 }
             }
+        } else {
+            // 用户选择的是其他目录，按主目录权限处理
+            self.saveBookmarkData(for: url, defaultKey: .homeDirectoryBookmark)
+            Logger.shared.verbose("授权主目录权限成功-\(url.path)")
         }
     }
     
+    // MARK: - Public Permission Request Methods
+    
+    /// 请求完全磁盘访问权限（默认打开根目录）
+    func requestFullDiskPermissions() {
+        requestDirectoryPermissions(defaultDirectory: "/")
+    }
+    
+    /// 请求主目录访问权限（默认打开用户主目录，但支持用户手动切换到根目录）
+    func requestHomeDirectoryPermissions() {
+        requestDirectoryPermissions(defaultDirectory: "~/")
+    }
     
     func cancelFullDiskPermissions() {
         Logger.shared.verbose("取消授权根目录权限")
@@ -385,17 +404,6 @@ extension DiskPermissionManager {
         stopDirectoryAccessing()
         
         Logger.shared.verbose("取消根目录权限成功")
-    }
-    
-    
-    func requestHomeDirectoryPermissions() {
-        Logger.shared.verbose("开始授权主目录权限")
-        guard let url = self.promptForWorkingDirectoryPermission(for: URL(fileURLWithPath: "~/", isDirectory: true)) else {
-            Logger.shared.verbose("授权主目录权限失败")
-            return
-        }
-        self.saveBookmarkData(for: url, defaultKey: .homeDirectoryBookmark)
-        Logger.shared.verbose("授权主目录权限成功-\(url.path)")
     }
     
     // 获取安全授权，根目录授权优先获取，无根目录书签时获取主目录书签
